@@ -1,0 +1,237 @@
+body {
+  background: rgb(52, 64, 66);
+  font-size: 10px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header > div {
+  width: calc(100% / 3);
+  margin: 0;
+}
+
+.header {
+  background: rgb(52, 64, 66);
+  /* --shd: none;
+  --brwt: 0px;
+  --brd: rgb(122, 121, 121); */
+  border: rgb(122, 121, 121);
+  /* --brwb: 0px;
+  --bgctr: rgb(33, 33, 33);
+  --rd: 0px;
+  --alpha-bg: 1;
+  --alpha-bgctr: 0;
+  --alpha-brd: 1;
+  --boxShadowToggleOn-shd: none;
+  --shc-mutated-brightness: rgb(26, 32, 33); */
+  color: #fff;
+  position: fixed !important;
+  margin-top: var(--wix-ads-top-height);
+  top: 0;
+  display: inline;
+  display: flex;
+  flex: auto;
+  flex-wrap: wrap;
+  left: 0;
+  margin-left: 0;
+  width: 80%;
+  height: 8rem;
+  padding: 0 10%;
+  /* min-width: 980px; */
+  z-index: 50;
+  /* --above-all-in-container: 10000; */
+}
+
+.header > * {
+  flex-grow: 1;
+  height: 8rem;
+}
+.header h1 {
+  font-size: 23px;
+  font-family: montserrat, sans-serif;
+}
+
+.header p {
+  font: var(--font_8);
+  color: rgb(var(--color_2));
+  font-size: 15px;
+  margin: 0;
+}
+
+.header .logo {
+  margin: 1rem 0;
+}
+
+.contact-details {
+  text-decoration: underline;
+}
+.contact {
+  align-items: right;
+}
+
+.header .logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.panel {
+  width: 100%;
+  height: 695px;
+}
+.panel.degrees {
+  display: flex;
+  flex-wrap: wrap;
+}
+.degree {
+  flex-grow: 1;
+}
+.grad {
+  background: greenyellow;
+}
+.teacher {
+  background: blue;
+}
+.nurse {
+  background: lightblue;
+}
+
+.image-panel {
+  background-image: url("wwwroot/img/students.webp");
+  width: 100%;
+  height: 695px;
+  /* background-size: 100% 100%; */
+  padding-top: 8rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-panel h1 {
+  width: fit-content;
+  margin-left: 11rem;
+  margin-top: 5rem;
+}
+.image-panel h2 {
+  width: fit-content;
+  margin-left: 21rem;
+}
+.image-panel .btn-group {
+  width: fit-content;
+  margin-left: 23rem;
+}
+
+.contents {
+  position: relative;
+  /* display: flex; */
+  padding: 0 10%;
+  width: 80%;
+  height: 100%;
+}
+
+.contents h1 {
+  letter-spacing: 0.06em;
+  font-family: montserrat, sans-serif;
+  font-size: 45px;
+  line-height: 1em;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+}
+
+.contents h2 {
+  font-family: "open sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  line-height: 1.4em;
+  letter-spacing: 0.45em;
+  text-align: center;
+}
+
+.btn-group {
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.btn-group .btn:first-child {
+  margin-right: 2rem;
+}
+
+.btn-group .btn:last-child {
+  margin-left: 2rem;
+}
+
+.btn-menu {
+  margin: 2.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.btn {
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #000;
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 2px;
+  flex-grow: 1;
+  align-items: center;
+  /* overflow: hidden; */
+  /* height: 100%;
+    width: 100%; */
+}
+
+.container {
+  width: 100%;
+  /* padding-right: 2rem;
+  padding-left: 2rem; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+:root {
+  --font_8: normal normal normal 15px/1.4em "open sans", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: none;
+  max-width: 12rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid #000000;
+  /* border-radius: 100px; */
+  /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+  fill: #000;
+  background-color: #000;
+  color: #fff;
+}
+.btn:hover {
+  fill: #fff;
+  background-color: #fff;
+  color: #000;
+}
+
+.btn.btn-action {
+  min-width: 36px;
+  min-height: 36px;
+  border-radius: 4px;
+  margin-left: 5px;
+  display: flex;
+  fill: #000;
+  background-color: var(--vald-orange);
+  color: #fff;
+}
