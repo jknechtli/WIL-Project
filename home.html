@@ -3,12 +3,47 @@
     <title>Home</title>
     <meta charset="utf-8" />
     <link rel="icon" href="./wwwroot/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./template.css" />
     <link rel="stylesheet" href="./home.css" />
   </head>
   <body>
     <div class="container">
+      <div id="open-menu" class="menu">
+        <div id="out-of-menu"></div>
+        <div class="btn-group">
+          <a href="./home.html">
+            <button class="btn">Home</button>
+          </a>
+          <a href="./template.html">
+            <button class="btn">About us</button>
+          </a>
+          <a href="">
+            <button class="btn">media /awards</button>
+          </a>
+          <a href="">
+            <button class="btn">blog</button>
+          </a>
+          <a href="">
+            <button class="btn">faw / links</button>
+          </a>
+          <a href="">
+            <button class="btn">contact us</button>
+          </a>
+        </div>
+      </div>
       <div class="header">
-        <div class="menu"><button class="btn btn-menu">=</button></div>
+        <div class="menu-btn-container">
+          <button id="menu" class="btn menu-btn">
+            =
+            <!-- <svg preserveAspectRatio="none" data-bbox="44 64 112 72" viewBox="44 64 112 72" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="img">
+              <g>
+                  <path d="M156 64v6H44v-6h112z"></path>
+                  <path d="M156 97v6H44v-6h112z"></path>
+                  <path d="M156 130v6H44v-6h112z"></path>
+              </g>
+          </svg> -->
+          </button>
+        </div>
         <div class="logo-container">
           <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" />
         </div>
@@ -31,21 +66,45 @@
           <h1>Support your future</h1>
           <h2>Let us help you to get a job</h2>
           <div class="btn-group">
-            <button class="btn">GTE & VISA Help ></button>
+            <!-- <button class="btn">GTE & VISA Help ></button> -->
             <button class="btn">Resumes Held ></button>
           </div>
           <!-- <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" /> -->
         </div>
         <div class="panel degrees">
-          <div class="degree nurse"></div>
-          <div class="degree teacher"></div>
-          <div class="degree grad"></div>
+          <div>
+            <img
+              src="./wwwroot/img/NURSES-REC.png"
+              class="degree nurse"
+              alt=""
+            />
+            <img src="./wwwroot/img/NURSE.png" class="person" alt="" />
+            <!-- <img src="./wwwroot/img/NURSES-REC.png" class="degree nurse" alt=""> -->
+          </div>
+          <div>
+            <img
+              src="./wwwroot/img/GRADUATES-REC.png"
+              class="degree graduate"
+              alt=""
+            />
+            <img src="./wwwroot/img/GRADUATE.png" class="person" alt="" />
+            <!-- <img src="./wwwroot/img/GRADUATES-REC.png" class="degree graduate" alt=""> -->
+          </div>
+          <div>
+            <img
+              src="./wwwroot/img/TEACHERS-REC.png"
+              class="degree teacher"
+              alt=""
+            />
+            <img src="./wwwroot/img/TEACHER.png" class="person" alt="" />
+            <!-- <img src="./wwwroot/img/TEACHERS-REC.png" class="degree teacher" alt=""> -->
+          </div>
         </div>
         <div class="panel">
           <h1>Support your future</h1>
           <h2>Let us help you to get a job</h2>
           <div class="btn-group">
-            <button class="btn">GTE & VISA Help ></button>
+            <!-- <button class="btn">GTE & VISA Help ></button> -->
             <button class="btn">Resumes Held ></button>
           </div>
           <!-- <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" /> -->
@@ -53,4 +112,20 @@
       </div>
     </div>
   </body>
+  <script>
+    openMenu = (mouseEvent) => {
+      document.getElementById("open-menu").style.display = "flex";
+    };
+
+    closedMenu = (mouseEvent) => {
+      document.getElementById("open-menu").style.display = "none";
+    };
+
+    document.getElementById("menu").addEventListener("click", openMenu);
+    document
+      .getElementById("out-of-menu")
+      .addEventListener("click", closedMenu);
+  </script>
 </html>
+
+
