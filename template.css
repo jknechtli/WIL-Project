@@ -5,6 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*#region Header*/
 .header > div {
   width: calc(100% / 3);
   margin: 0;
@@ -79,6 +80,39 @@ body {
   width: 100%;
 }
 
+.dropdown {
+  position: relative;
+  cursor: default !important;
+}
+
+.dropdown:hover .vertical-btn-group {
+  display: unset;
+}
+
+.vertical-btn-group.btn-group {
+  left: 0;
+  top: 5px;
+  flex-flow: column wrap;
+  display: none;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.vertical-btn-group a {
+  text-decoration: none;
+}
+
+.vertical-btn-group button {
+  flex-grow: 1;
+  display: flex;
+  width: 100%;
+  max-width: unset;
+  margin: 0 !important;
+}
+
 .menu.closed {
   display: none;
 }
@@ -91,19 +125,21 @@ body {
   opacity: 60%;
 }
 
-.contents {
-  position: relative;
-  margin: 0 10%;
-  width: 80%;
-  height: fit-content;;
-  padding-top: 8rem;
-  /* background-color: var(--bg-overlay-color); */
-}
-
 .menu-btn {
   margin: 2.5rem;
   height: 3rem;
   width: 3rem;
+}
+
+/*#endregion Header*/
+
+.contents {
+  position: relative;
+  margin: 0 10%;
+  width: 80%;
+  height: fit-content;
+  padding-top: 8rem;
+  /* background-color: var(--bg-overlay-color); */
 }
 
 .btn {
@@ -117,6 +153,7 @@ body {
   border-radius: 2px;
   flex-grow: 1;
   align-items: center;
+  cursor: pointer;
 }
 
 .container {
@@ -200,11 +237,25 @@ body {
 }
 .description {
   background-color: #fafafa;
-  padding: 2rem 18rem;
+  /* padding: 2rem 18rem; */
+  padding: 2rem 15%;
+}
+
+.description p.bold {
+  font-weight: bold;
+  text-align: center;
 }
 
 .description p {
-  max-width: 60%;
+  /* max-width: 60%; */
+  font: normal normal normal 15px/1.4em "open sans", sans-serif;
+  font-family: montserrat, sans-serif;
+  line-height: 2em;
+  letter-spacing: normal;
+}
+
+.description img {
+  float: right;
 }
 
 .description ul {
@@ -214,9 +265,11 @@ body {
 h1 {
   font-size: 43px;
 }
+
 h2 {
   font-size: 28px;
 }
+
 p {
   font-size: 12px;
   font-weight: 400;
@@ -224,13 +277,28 @@ p {
   font-family: montserrat, sans-serif;
 }
 
+.enquiries {
+  padding: 2rem;
+  background-color: rgb(60, 148, 222);
+  color: white;
+  text-align: center;
+}
+
+.enquiries a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*#region Footer*/
+
 .copyright {
   background-color: rgb(52, 64, 66);
   width: 100%;
 }
 
 .footer {
-  background-color: rgb(35, 42, 43);
+  /* background-color: rgb(35, 42, 43); */
   width: 100%;
   padding-top: 0.1px;
   position: relative;
@@ -287,3 +355,5 @@ p {
   height: 9px;
   margin: 0px 0px 0px 4px;
 }
+
+/*#endregion Footer*/
