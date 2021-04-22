@@ -1,5 +1,6 @@
 body {
   background: rgb(52, 64, 66);
+  color: #ffffff;
   font-size: 10px;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -151,7 +152,7 @@ body {
   justify-content: center;
   flex-direction: row;
   border-radius: 2px;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   align-items: center;
   cursor: pointer;
 }
@@ -177,7 +178,7 @@ body {
   white-space: nowrap;
   vertical-align: middle;
   border: none;
-  max-width: 12rem;
+  /* max-width: 12rem; */
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;

@@ -6,15 +6,100 @@
   display: flex;
   flex-wrap: wrap;
 }
+.panel.text {
+  padding: 0 15%;
+  width: 70%;
+  text-align: center;
+}
+.panel.text h1 {
+  padding: 0 10%;
+}
+.panel.text ul {
+  list-style-type: none;
+  padding: 0;
+}
+.panel.text .btn {
+  border-radius: 10px;
+  background: none;
+  color: rgb(128, 197, 255);
+  border: 1px solid rgb(128, 197, 255);
+  width: fit-content;
+}
+.panel.text .btn:hover {
+  transition: all 0.2s ease-out;
+  background: rgb(128, 197, 255);
+  color: #ffffff;
+}
+.panel.text .btn {
+  transition: all 0.2s ease-out;
+}
+
+.form-section {
+  background-image: url("./wwwroot/img/form-bg.webp");
+}
+.form-section .info-banner {
+  display: flex;
+  margin: 0 10%;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+  background-color: rgba(52, 64, 66, 0.73);
+}
+.form-section .info-banner > div {
+  flex-grow: 1;
+  max-width: 33%;
+}
+.form-section .info-banner > div:first-child {
+  margin-top: 1rem;
+}
+.form-section .form-container {
+  width: 100%;
+  display: flex;
+  padding: 3rem 10%;
+}
+
+.form-section .form-container img {
+  margin: 3rem;
+  border-radius: 5px;
+  box-shadow: 8.09px 3.95px 44px 0px rgba(0, 0, 0, 0.5);
+}
+
+.form-section .form-container form {
+  width: 32rem;
+  display: flex;
+  flex-flow: column;
+  color: #000;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 8.09px 3.95px 44px 0px rgba(0, 0, 0, 0.5);
+  padding: 3rem 2rem;
+}
+
+.form-section .form-container form input {
+  border-width: 1px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(163, 217, 246);
+}
+
+div.divider {
+  width: 61px;
+  transform-origin: center 0.5px;
+  margin-left: calc(50% - 30.5px);
+  border-top: 1px solid rgb(128, 197, 255);
+}
+
 .degree {
   flex-grow: 1;
   width: 100%;
   position: absolute;
   z-index: 5;
 }
-.degrees > div img {
-  /* transition: all 0.2s ease-out; */
-}
+
+/* .degrees > div img { */
+/* transition: all 0.2s ease-out; */
+/* } */
+
 .degrees > div:hover img {
   /* transform: scale(1.1); */
   /* transform: scale(1.1, 1); */
@@ -49,12 +134,12 @@ img.person {
 }
 
 .image-panel {
-  background-image: url("wwwroot/img/students.webp");
+  background-image: url("wwwroot/img/GRADUATES.webp");
   width: 100%;
-  height: 695px;
+  height: 233px;
   /* background-size: 100% 100%; */
-  padding-top: 8rem;
-  background-size: cover;
+  /* padding-top: 8rem;
+  background-size: cover; */
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -80,14 +165,14 @@ img.person {
   line-height: 1em;
   text-align: center;
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  /* color: rgb(33, 33, 33); */
 }
 
 .contents h2 {
   font-family: "open sans", sans-serif;
   font-size: 17px;
   font-weight: 400;
-  color: rgb(33, 33, 33);
+  /* color: rgb(33, 33, 33); */
   line-height: 1.4em;
   letter-spacing: 0.45em;
   text-align: center;
