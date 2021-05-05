@@ -24,7 +24,7 @@
                 <button class="btn">About our resume writing process</button>
               </a>
               <a href="./about-our-director.html">
-                <button class="btn">about our director</button>
+                <button class="btn">About our director</button>
               </a>
             </div>
           </div>
@@ -56,7 +56,9 @@
           </button>
         </div>
         <div class="logo-container">
-          <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" />
+          <a href="./home.html">
+            <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" />
+          </a>
         </div>
         <div class="contact">
           <h1>CONTACT US TODAY</h1>
@@ -108,7 +110,9 @@
             <li>Answers to selection criteria</li>
             <li>Suitability statements</li>
           </ul>
-          <button class="btn">Resume Writing Services</button>
+          <a href="./about-writing-services.html">
+            <button class="btn">Resume Writing Services</button>
+          </a>
           <!-- <h2>Let us help you to get a job</h2>
             <div class="btn-group"> -->
           <!-- <button class="btn">GTE & VISA Help ></button> -->
@@ -191,6 +195,7 @@
             <label for="nameInput">Name</label>
             <!-- placeholder="" required="" maxlength="100" -->
             <input
+              class="text-input"
               type="text"
               name="Name"
               id="nameInput"
@@ -199,29 +204,38 @@
             />
             <label for="emailInput">Email</label>
             <input
+              class="text-input"
               type="text"
               name="Email"
               id="emailInput"
               required
               maxlength="100"
+              pattern="^.+@.+\.[a-zA-Z]{2,63}$"
             />
             <label for="occupationInput">Your occupation is...</label>
-            <input type="radio" name="Occupation" id="nurse" value="nurse" />
-            <label for="nurse">Nurse</label>
-            <input
-              type="radio"
-              name="Occupation"
-              id="teacher"
-              value="teacher"
-            />
-            <label for="teacher">Teacher</label>
-            <input
-              type="radio"
-              name="Occupation"
-              id="graduate"
-              value="graduate"
-            />
-            <label for="graduate">Graduate</label>
+            <div class="input-holder">
+              <input type="radio" name="Occupation" id="nurse" value="nurse" />
+              <label for="nurse">Nurse</label>
+            </div>
+            <div class="input-holder">
+              <input
+                type="radio"
+                name="Occupation"
+                id="teacher"
+                value="teacher"
+              />
+              <label for="teacher">Teacher</label>
+            </div>
+            <div class="input-holder">
+              <input
+                type="radio"
+                name="Occupation"
+                id="graduate"
+                value="graduate"
+              />
+              <label for="graduate">Graduate</label>
+            </div>
+            <button class="btn" type="submit">Submit</button>
             <!-- <input type="text" name="Name" id="nameInput"> -->
           </form>
         </div>

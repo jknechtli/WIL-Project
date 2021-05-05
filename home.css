@@ -1,6 +1,7 @@
 .panel {
   width: 100%;
-  height: 695px;
+  height: 496px;
+  color: #ffffff;
 }
 .panel.degrees {
   display: flex;
@@ -36,6 +37,8 @@
 
 .form-section {
   background-image: url("./wwwroot/img/form-bg.webp");
+    height: fit-content;
+    
 }
 .form-section .info-banner {
   display: flex;
@@ -61,6 +64,8 @@
   margin: 3rem;
   border-radius: 5px;
   box-shadow: 8.09px 3.95px 44px 0px rgba(0, 0, 0, 0.5);
+  width: 524px;
+  height: 393px;
 }
 
 .form-section .form-container form {
@@ -75,11 +80,33 @@
   padding: 3rem 2rem;
 }
 
-.form-section .form-container form input {
+.form-section .form-container form label {
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+  color: rgb(57,57,57);
+  word-break: break-word;
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 12px;
+  padding: 0 20px 0 2px;
+}
+.form-section .form-container form input.text-input {
   border-width: 1px;
   background-color: rgb(255, 255, 255);
   border-style: solid;
   border-color: rgb(163, 217, 246);
+  padding: 3px 3px 3px 16px;
+  border-radius: 4px;
+  height: 44px;
+  margin-bottom: 16px;
+}
+.form-section .form-container form input:invalid {
+  /* border-color: #ff4040; */
+}
+.form-section .form-container form .input-holder {
+  display: flex;
+}
+.form-section .form-container form .input-holder label {
+  margin-top: 3px;
 }
 
 div.divider {
