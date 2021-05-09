@@ -1,79 +1,12 @@
 <html lang="en-AU">
   <head>
     <title>Home</title>
-    <meta charset="utf-8" />
-    <link rel="icon" href="./wwwroot/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./template.css" />
-    <link rel="stylesheet" href="./home.css" />
+    <?php include '../shared/head.html';?>
+    <link rel="stylesheet" href="/dashboard/stylesheets/home.css" />
   </head>
   <body>
     <div class="container">
-      <div id="open-menu" class="menu">
-        <div id="out-of-menu"></div>
-        <div class="btn-group">
-          <a href="./home.html">
-            <button class="btn">Home</button>
-          </a>
-          <div class="btn dropdown">
-            About us V
-            <div class="vertical-btn-group btn-group">
-              <a href="./about-writing-services.html">
-                <button class="btn">About our resume writing service</button>
-              </a>
-              <a href="./about-writing-process.html">
-                <button class="btn">About our resume writing process</button>
-              </a>
-              <a href="./about-our-director.html">
-                <button class="btn">About our director</button>
-              </a>
-            </div>
-          </div>
-          <a href="./media-awards.html">
-            <button class="btn">media /awards</button>
-          </a>
-          <a href="./blog.html">
-            <button class="btn">blog</button>
-          </a>
-          <a href="./faq.html">
-            <button class="btn">faq / links</button>
-          </a>
-          <a href="./contact-us.html">
-            <button class="btn">contact us</button>
-          </a>
-        </div>
-      </div>
-      <div class="header">
-        <div class="menu-btn-container">
-          <button id="menu" class="btn menu-btn">
-            =
-            <!-- <svg preserveAspectRatio="none" data-bbox="44 64 112 72" viewBox="44 64 112 72" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="img">
-              <g>
-                  <path d="M156 64v6H44v-6h112z"></path>
-                  <path d="M156 97v6H44v-6h112z"></path>
-                  <path d="M156 130v6H44v-6h112z"></path>
-              </g>
-          </svg> -->
-          </button>
-        </div>
-        <div class="logo-container">
-          <a href="./home.html">
-            <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" />
-          </a>
-        </div>
-        <div class="contact">
-          <h1>CONTACT US TODAY</h1>
-          <p>
-            Phone:
-            <span class="contact-details"> 0407032026 </span>
-          </p>
-          <p>
-            Email:
-            <span class="contact-details">
-              exceptionaltuitionandresumes@gmail.com
-            </span>
-          </p>
-        </div>
-      </div>
+      <?php include '../shared/header.html';?>
       <div class="contents">
         <div class="image-panel panel"></div>
         <!-- <h1>Support your future</h1>
@@ -82,7 +15,7 @@
             <-- <button class="btn">GTE & VISA Help ></button> ->
             <button class="btn">Resumes Held ></button>
           </div> -->
-        <!-- <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" /> -->
+        <!-- <img class="logo" src="/dashboard/img/logo.webp" alt="Logo" /> -->
         <!-- </div> -->
 
         <div class="panel text">
@@ -118,36 +51,36 @@
           <!-- <button class="btn">GTE & VISA Help ></button> -->
           <!-- <button class="btn">Resumes Held ></button>
             </div> -->
-          <!-- <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" /> -->
+          <!-- <img class="logo" src="/dashboard/img/logo.webp" alt="Logo" /> -->
         </div>
 
         <div class="panel degrees">
           <div>
             <img
-              src="./wwwroot/img/NURSES-REC.png"
+              src="/dashboard/img/NURSES-REC.png"
               class="degree nurse"
               alt=""
             />
-            <img src="./wwwroot/img/NURSE.png" class="person" alt="" />
-            <!-- <img src="./wwwroot/img/NURSES-REC.png" class="degree nurse" alt=""> -->
+            <img src="/dashboard/img/NURSE.png" class="person" alt="" />
+            <!-- <img src="/dashboard/img/NURSES-REC.png" class="degree nurse" alt=""> -->
           </div>
           <div>
             <img
-              src="./wwwroot/img/GRADUATES-REC.png"
+              src="/dashboard/img/GRADUATES-REC.png"
               class="degree graduate"
               alt=""
             />
-            <img src="./wwwroot/img/GRADUATE.png" class="person" alt="" />
-            <!-- <img src="./wwwroot/img/GRADUATES-REC.png" class="degree graduate" alt=""> -->
+            <img src="/dashboard/img/GRADUATE.png" class="person" alt="" />
+            <!-- <img src="/dashboard/img/GRADUATES-REC.png" class="degree graduate" alt=""> -->
           </div>
           <div>
             <img
-              src="./wwwroot/img/TEACHERS-REC.png"
+              src="/dashboard/img/TEACHERS-REC.png"
               class="degree teacher"
               alt=""
             />
-            <img src="./wwwroot/img/TEACHER.png" class="person" alt="" />
-            <!-- <img src="./wwwroot/img/TEACHERS-REC.png" class="degree teacher" alt=""> -->
+            <img src="/dashboard/img/TEACHER.png" class="person" alt="" />
+            <!-- <img src="/dashboard/img/TEACHERS-REC.png" class="degree teacher" alt=""> -->
           </div>
         </div>
       </div>
@@ -186,11 +119,11 @@
 
         <div class="form-container">
           <img
-            src="./wwwroot/img/form-img.webp"
+            src="/dashboard/img/form-img.webp"
             alt="graduate holding degree"
           />
 
-          <form action="submit">
+          <form action="" method="post">
             <h2>Contact Us</h2>
             <label for="nameInput">Name</label>
             <!-- placeholder="" required="" maxlength="100" -->
@@ -246,7 +179,7 @@
           <-- <button class="btn">GTE & VISA Help ></button> ->
           <button class="btn">Resumes Held ></button>
         </div> -->
-        <!-- <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" /> -->
+        <!-- <img class="logo" src="/dashboard/img/logo.webp" alt="Logo" /> -->
       </div>
       <div class="footer">
         <div class="links">
@@ -278,24 +211,28 @@
           </div>
           <div>social links?</div>
         </div>
-        <div class="copyright">
-          © 2021 | Exceptional Study Australia | All rights reserved
-        </div>
+        <?php include '../shared/footer.html';?>
       </div>
     </div>
   </body>
-  <script>
-    openMenu = (mouseEvent) => {
-      document.getElementById("open-menu").style.display = "flex";
-    };
+  <?php 
+  if(isset($_POST['submit'])){
+      $to = "jknechtli@hotmail.com"; // this is your Email address
+      $from = $_POST['Email']; // this is the sender's Email address
+      $first_name = $_POST['Name'];
+      $subject = "Form submission";
+      $subject2 = "Copy of your form submission";
+      $message = $first_name . " wrote the following: hi";
+      $message2 = "Here is a copy of your message " . $first_name . "\n\n" . "hi";
 
-    closedMenu = (mouseEvent) => {
-      document.getElementById("open-menu").style.display = "none";
-    };
+      $headers = "From:" . $from;
+      $headers2 = "From:" . $to;
+      mail($to,$subject,$message,$headers);
+      mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+      echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+      // You can also use header('Location: thank_you.php'); to redirect to another page.
+      }
+  ?>
 
-    document.getElementById("menu").addEventListener("click", openMenu);
-    document
-      .getElementById("out-of-menu")
-      .addEventListener("click", closedMenu);
-  </script>
+  <?php include '../shared/script.html';?>
 </html>

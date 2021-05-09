@@ -1,0 +1,12 @@
+<script>
+  openMenu = (mouseEvent) => {
+    document.getElementById("open-menu").style.display = "flex";
+  };
+
+  closedMenu = (mouseEvent) => {
+    document.getElementById("open-menu").style.display = "none";
+  };
+
+  document.getElementById("menu").addEventListener("click", openMenu);
+  document.getElementById("out-of-menu").addEventListener("click", closedMenu);
+</script>

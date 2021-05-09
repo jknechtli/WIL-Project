@@ -1,69 +1,11 @@
 <html lang="en-AU">
   <head>
     <title>Template</title>
-    <meta charset="utf-8" />
-    <link rel="icon" href="./wwwroot/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./template.css" />
+    <?php include '../shared/head.html';?>
   </head>
   <body>
     <div class="container">
-      <div id="open-menu" class="menu">
-        <div id="out-of-menu"></div>
-        <div class="btn-group">
-          <a href="./home.html">
-            <button class="btn">Home</button>
-          </a>
-          <div class="btn dropdown">
-            About us V
-            <div class="vertical-btn-group btn-group">
-              <a href="./about-writing-services.html">
-                <button class="btn">About our resume writing service</button>
-              </a>
-              <a href="./about-writing-process.html">
-                <button class="btn">About our resume writing process</button>
-              </a>
-              <a href="./about-our-director.html">
-                <button class="btn">About our director</button>
-              </a>
-            </div>
-          </div>
-          <a href="./media-awards.html">
-            <button class="btn">media /awards</button>
-          </a>
-          <a href="./blog.html">
-            <button class="btn">blog</button>
-          </a>
-          <a href="./faq.html">
-            <button class="btn">faq / links</button>
-          </a>
-          <a href="./contact-us.html">
-            <button class="btn">contact us</button>
-          </a>
-        </div>
-      </div>
-      <div class="header">
-        <div class="menu-btn-container">
-          <button id="menu" class="btn menu-btn">=</button>
-        </div>
-         <div class="logo-container">
-          <a href="./home.html">
-            <img class="logo" src="./wwwroot/img/logo.webp" alt="Logo" />
-          </a>
-        </div>
-        <div class="contact">
-          <h1>CONTACT US TODAY</h1>
-          <p>
-            Phone:
-            <span class="contact-details"> 0407032026 </span>
-          </p>
-          <p>
-            Email:
-            <span class="contact-details">
-              exceptionaltuitionandresumes@gmail.com
-            </span>
-          </p>
-        </div>
-      </div>
+      <?php include '../shared/header.html';?>
       <div class="contents">
         <div class="heading">
           <h1>FAQ / LINKS</h1>
@@ -330,24 +272,9 @@
         </div>
       </div>
       <div class="footer">
-        <div class="copyright">
-          © 2021 | Exceptional Study Australia | All rights reserved
-        </div>
+<?php include '../shared/footer.html';?>
       </div>
     </div>
   </body>
-  <script>
-    openMenu = (mouseEvent) => {
-      document.getElementById("open-menu").style.display = "flex";
-    };
-
-    closedMenu = (mouseEvent) => {
-      document.getElementById("open-menu").style.display = "none";
-    };
-
-    document.getElementById("menu").addEventListener("click", openMenu);
-    document
-      .getElementById("out-of-menu")
-      .addEventListener("click", closedMenu);
-  </script>
+  <?php include '../shared/script.html';?>
 </html>

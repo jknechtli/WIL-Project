@@ -6,6 +6,7 @@
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
 	header('Location: '.$uri.'/dashboard/');
+	// console.log($_SERVER);
 	exit;
 ?>
 Something is wrong with the XAMPP installation :-(
