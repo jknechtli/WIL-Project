@@ -37,8 +37,7 @@
 
 .form-section {
   background-image: url("/dashboard/img/form-bg.webp");
-    height: fit-content;
-    
+  height: fit-content;
 }
 .form-section .info-banner {
   display: flex;
@@ -81,8 +80,9 @@
 }
 
 .form-section .form-container form label {
-  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
-  color: rgb(57,57,57);
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,
+    sans-serif;
+  color: rgb(57, 57, 57);
   word-break: break-word;
   display: inline-block;
   line-height: 1;
@@ -130,7 +130,7 @@ div.divider {
 .degrees > div:hover img {
   /* transform: scale(1.1); */
   /* transform: scale(1.1, 1); */
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 .degrees > div {
@@ -141,6 +141,7 @@ div.divider {
   position: relative;
   height: 28rem;
 }
+
 img.person {
   height: 60%;
   z-index: 20;
@@ -148,14 +149,90 @@ img.person {
   position: absolute;
 }
 
-.nurse {
+.panel.degrees button.btn {
+  z-index: 6;
+  height: 4rem;
+  width: 10rem;
+}
+
+.degrees .menu-close {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 99;
+  display: none;
+}
+
+.degrees .vertical-btn-group {
+  z-index: 100;
+  /* width: 10rem; */
+  left: 22rem;
+  top: 1rem;
+  box-shadow: 0px 6px 27px 0px rgba(0, 0, 0, 0.3);
+}
+
+.degrees .vertical-btn-group button.btn {
+  width: 14rem;
+}
+
+.popup-container button.btn {
+  border-color: #fff;
+}
+.popup-container > button.btn {
+  box-shadow: 0px 6px 27px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.popup-container button.btn:hover {
+  color: #fff;
+}
+
+/* nursing  : 03b19d */
+/* graduate : 1ba2ff */
+/* teacher  : 5cd660 */
+
+/* .btn-container {
+  width: fit-content;
+  position: relative;
+} */
+
+.nurse button {
+  background-color: #03b19d !important;
+}
+.graduate button {
+  background-color: #1ba2ff !important;
+}
+.teacher button {
+  background-color: #5cd660 !important;
+}
+
+.degrees .popup-container {
+  position: relative;
+  /* margin-top: 15rem;
+  margin-left: 14rem; */
+
+  padding-top: 15rem;
+  padding-left: 12rem;
+  z-index: 100;
+  /* margin-top: 17rem;
+  margin-left: 20rem; */
+}
+
+.panel.degrees > div:nth-child(2) .popup-container {
+  z-index: 99;
+}
+.panel.degrees > div:nth-child(3) .popup-container {
+  z-index: 98;
+}
+
+.nurse > img.degree {
   width: 102%;
 }
-.teacher {
+.teacher > img.degree {
   width: 102%;
   left: -9px;
 }
-.graduate {
+.graduate > img.degree {
   width: 112%;
   left: -35px;
 }

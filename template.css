@@ -229,6 +229,16 @@ body {
   padding-top: 2rem;
 }
 
+.heading.graduates {
+  background-color: #1ba2ff;
+}
+.heading.teachers {
+  background-color: #5cd660;
+}
+.heading.nursing {
+  background-color: #03b19d;
+}
+
 .heading h1 {
   color: #fafafa;
 }
@@ -244,7 +254,7 @@ body {
 
 .description p.bold {
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .description p {
@@ -257,6 +267,18 @@ body {
 
 .description img {
   float: right;
+}
+
+.description img.left {
+  float: left;
+  margin-right: 2rem;
+}
+.description div.split {
+  position: relative;
+  display: flex;
+}
+.description div.split > div {
+  width: 50%;
 }
 
 .description ul {
