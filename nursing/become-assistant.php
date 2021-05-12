@@ -1,7 +1,7 @@
 <html lang="en-AU">
 
 <head>
-  <title>Template</title>
+  <title>Become an assistant in nursing (AIN)</title>
   <?php include '../shared/head.html'; ?>
 </head>
 

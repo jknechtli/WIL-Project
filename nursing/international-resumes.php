@@ -1,7 +1,7 @@
 <html lang="en-AU">
 
 <head>
-  <title>Template</title>
+  <title>Resume services for international nurses</title>
   <?php include '../shared/head.html'; ?>
 </head>
 

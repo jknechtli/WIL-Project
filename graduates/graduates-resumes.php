@@ -1,7 +1,7 @@
 <html lang="en-AU">
 
 <head>
-  <title>Template</title>
+  <title>Graduates Resumes</title>
   <?php include '../shared/head.html'; ?>
 </head>
 

@@ -1,6 +1,6 @@
 <html lang="en-AU">
   <head>
-    <title>Template</title>
+    <title>Resume writing services</title>
     <?php include '../shared/head.html';?>
   </head>
   <body>

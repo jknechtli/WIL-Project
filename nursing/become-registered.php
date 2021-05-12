@@ -1,7 +1,7 @@
 <html lang="en-AU">
 
 <head>
-  <title>Template</title>
+  <title>Become a registered nurse (RN)</title>
   <?php include '../shared/head.html'; ?>
 </head>
 

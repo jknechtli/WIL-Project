@@ -230,29 +230,31 @@
       <div class="form-container">
         <img src="/dashboard/img/form-img.webp" alt="graduate holding degree" />
 
-        <form action="" method="post">
+        <?php include './../shared/form.php'; ?>
+
+        <!-- <form action="" method="post">
           <h2>Contact Us</h2>
           <label for="nameInput">Name</label>
-          <!-- placeholder="" required="" maxlength="100" -->
-          <input class="text-input" type="text" name="Name" id="nameInput" required maxlength="100" />
-          <label for="emailInput">Email</label>
-          <input class="text-input" type="text" name="Email" id="emailInput" required maxlength="100" pattern="^.+@.+\.[a-zA-Z]{2,63}$" />
-          <label for="occupationInput">Your occupation is...</label>
-          <div class="input-holder">
-            <input type="radio" name="Occupation" id="nurse" value="nurse" />
-            <label for="nurse">Nurse</label>
-          </div>
-          <div class="input-holder">
-            <input type="radio" name="Occupation" id="teacher" value="teacher" />
-            <label for="teacher">Teacher</label>
-          </div>
-          <div class="input-holder">
-            <input type="radio" name="Occupation" id="graduate" value="graduate" />
-            <label for="graduate">Graduate</label>
-          </div>
-          <button class="btn" type="submit">Submit</button>
-          <!-- <input type="text" name="Name" id="nameInput"> -->
-        </form>
+          <!-- placeholder="" required="" maxlength="100" ->
+        <input class="text-input" type="text" name="Name" id="nameInput" required maxlength="100" />
+        <label for="emailInput">Email</label>
+        <input class="text-input" type="text" name="Email" id="emailInput" required maxlength="100" pattern="^.+@.+\.[a-zA-Z]{2,63}$" />
+        <label for="occupationInput">Your occupation is...</label>
+        <div class="input-holder">
+          <input type="radio" name="Occupation" id="nurse" value="nurse" />
+          <label for="nurse">Nurse</label>
+        </div>
+        <div class="input-holder">
+          <input type="radio" name="Occupation" id="teacher" value="teacher" />
+          <label for="teacher">Teacher</label>
+        </div>
+        <div class="input-holder">
+          <input type="radio" name="Occupation" id="graduate" value="graduate" />
+          <label for="graduate">Graduate</label>
+        </div>
+        <button class="btn" type="submit">Submit</button>
+        <!-- <input type="text" name="Name" id="nameInput"> ->
+        </form> -->
       </div>
 
       <!-- <h1>Support your future</h1>
@@ -290,6 +292,7 @@
 </body>
 <?php
 if (isset($_POST['submit'])) {
+  echo "ass";
   $to = "jknechtli@hotmail.com"; // this is your Email address
   $from = $_POST['Email']; // this is the sender's Email address
   $first_name = $_POST['Name'];
@@ -299,7 +302,7 @@ if (isset($_POST['submit'])) {
   $message2 = "Here is a copy of your message " . $first_name . "\n\n" . "hi";
 
   $headers = "From:" . $from;
-  $headers2 = "From:" . $to;
+  // $headers2 = "From:" . $to;
   mail($to, $subject, $message, $headers);
   mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
   echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";

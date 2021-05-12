@@ -1,0 +1,21 @@
+{
+  "Teacher Resumes": "/teachers/teacher-resumes.php",
+  
+  "About our Director": "/dashboard/about-our-director.php",
+  "About our Resume Writing Services": "/dashboard/about-writing-services.php",
+  "About our Resume Writing Process": "/dashboard/about-writing-process.php",
+  "FAQ / LINKS": "/dashboard/faq.php",
+  "Contact us": "/dashboard/contact-us.php",
+
+  "Resume Services for International Nurses": "/nursing/international-resumes.php",
+  "Become an assistant in nursing (AIN) in Australia": "/nursing/become-assistant.php",
+  "Become a registered nurse (RN) in Australia": "/nursing/become-registered.php",
+  "Become an enrolled nurse (EN) in Australia": "/nursing/become-enrolled.php",
+  "Interview training for nurses": "/nursing/interview-training.php",
+  "LinkedIn profiles for nurses": "/nursing/linkedin-profiles.php",
+
+  "Graduate resumes": "/graduates/graduates-resumes.php",
+  "Selection criteria and suitability statements for graduates": "/graduates/selection-criteria.php",
+  "LinkedIn profiles for graduates": "/graduates/linkedin-profiles.php",
+  "Interview training for graduates": "/graduates/interview-training.php"
+}

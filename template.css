@@ -2,7 +2,8 @@ body {
   background: rgb(52, 64, 66);
   font-size: 10px;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: montserrat, sans-serif;
 }
 
 /*#region Header*/
@@ -24,19 +25,23 @@ body {
   left: 0;
   margin-left: 0;
   width: 80%;
-  height: 8rem;
+  height: 9rem;
   padding: 0 10%;
   z-index: 50;
 }
 
 .header > * {
   flex-grow: 1;
-  height: 8rem;
+  height: 9rem;
+}
+
+.header a {
+  color: #fff;
 }
 
 .header h1 {
   font-size: 23px;
-  font-family: montserrat, sans-serif;
+  /* font-family: montserrat, sans-serif; */
 }
 
 .header p {
@@ -55,7 +60,8 @@ body {
 }
 
 .contact {
-  align-items: right;
+  text-align: right;
+  font-size: 13px;
 }
 
 .header .logo-container {
@@ -259,14 +265,16 @@ body {
 
 .description p {
   /* max-width: 60%; */
-  font: normal normal normal 15px/1.4em "open sans", sans-serif;
-  font-family: montserrat, sans-serif;
+  /* font: normal normal normal 15px/1.4em "open sans", sans-serif; */
+  /* font-family: montserrat, sans-serif; */
   line-height: 2em;
   letter-spacing: normal;
 }
 
 .description img {
   float: right;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
 
 .description img.left {
@@ -284,8 +292,21 @@ body {
 .description ul {
   padding-left: 1rem;
 }
+
+ol,
 ul {
   font-size: 12px;
+}
+ol {
+  line-height: 3em;
+}
+ul li {
+  line-height: 2em;
+}
+ol a {
+  line-height: 3em;
+  text-decoration: none;
+  color: #000;
 }
 h1 {
   font-size: 43px;
@@ -297,12 +318,12 @@ h2 {
 
 p {
   font-size: 12px;
-  font-weight: 400;
+  /* font-weight: 400; */
   letter-spacing: normal;
-  font-family: montserrat, sans-serif;
 }
 
 .enquiries {
+  /* font: montserrat; */
   padding: 2rem;
   background-color: rgb(60, 148, 222);
   color: white;
@@ -383,6 +404,82 @@ p {
 
 /*#endregion Footer*/
 
-p {
-  font: normal normal normal 15px/1.4em "open sans", sans-serif;
+.search-option {
+  border: rgba(0, 0, 0, 0.1) 1px solid;
+  box-shadow: 0px 4px 6px rgb(0 0 0 / 20%);
+  margin: 1.5rem 0px;
+  padding-left: 2rem;
+}
+
+.search-option p {
+  width: 90%;
+  height: 3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-option h2 {
+  text-align: left;
+}
+
+.search-option a {
+  color: black;
+  text-decoration: none;
+}
+
+.search-option a {
+  color: black;
+  text-decoration: none;
+}
+
+.description .search-bar {
+  /* outline: 0;
+  border: 0;
+  width: 100%;*/
+  height: 3rem; /*
+  background: 0 0;
+  padding: 8px 0 8px 0;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  border: rgba(0, 0, 0, 0.6) 1px solid; */
+  margin-top: 0;
+  border-radius: 3px;
+  margin-left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgb(0 0 0 / 20%);
+  margin-bottom: revert;
+}
+
+.description .search-bar input {
+  /* outline: 0;
+  border: 0;
+  width: 100%;
+  background: 0 0;
+  padding: 8px 0 8px 0; */
+  padding: 8px 0;
+}
+
+.search-bar {
+  outline: 0;
+  border: 0;
+  width: 50%;
+  height: 2rem;
+  background: 0 0;
+  padding: 8px 0 8px 0;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  border: rgba(0, 0, 0, 0.6) 1px solid;
+  border-radius: 6px;
+  border-color: rgb(186, 184, 184);
+  margin-top: 0.5rem;
+  margin-left: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.search-bar input {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  background: 0 0;
+  padding: 0;
 }

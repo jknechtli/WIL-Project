@@ -264,7 +264,7 @@ img.person {
 
 .contents h1 {
   letter-spacing: 0.06em;
-  font-family: montserrat, sans-serif;
+  /* font-family: montserrat, sans-serif; */
   font-size: 45px;
   line-height: 1em;
   text-align: center;
@@ -273,7 +273,7 @@ img.person {
 }
 
 .contents h2 {
-  font-family: "open sans", sans-serif;
+  /* font-family: "open sans", sans-serif; */
   font-size: 17px;
   font-weight: 400;
   /* color: rgb(33, 33, 33); */

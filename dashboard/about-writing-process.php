@@ -1,6 +1,6 @@
 <html lang="en-AU">
   <head>
-    <title>Template</title>
+    <title>Resume writing process</title>
     <?php include '../shared/head.html';?>
   </head>
   <body>
@@ -11,7 +11,7 @@
           <h1>About</h1>
         </div>
         <div class="description">
-          <h2>About our RESUME WRITING PROCESS</h2>
+          <h2>ABOUT OUR RESUME WRITING PROCESS</h2>
           <p>
             Step 1 : Choose the Individual Service or Package you require <br />
             Step 2 : Send us an email including the following details: 

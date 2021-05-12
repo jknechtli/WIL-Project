@@ -1,7 +1,7 @@
 <html lang="en-AU">
 
 <head>
-  <title>Template</title>
+  <title>LinkedIn profiles for graduates</title>
   <?php include '../shared/head.html'; ?>
 </head>
 

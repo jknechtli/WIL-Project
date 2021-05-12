@@ -1,7 +1,7 @@
 <html lang="en-AU">
 
 <head>
-  <title>Template</title>
+  <title>Become an enrolled nurse (EN) </title>
   <?php include '../shared/head.html'; ?>
 </head>
 
@@ -59,11 +59,6 @@
         </p>
         <p>
           The most common annual salary in Australia for an enrolled nurse is between 55k AUD to 65k AUD.
-        </p>
-        <br>
-        <br>
-        <p>
-          For all enquiries please email exceptionalstudyaustralia@gmail.com , text 0447 840 939 or message us on social media
         </p>
       </div>
       <div class="enquiries">
