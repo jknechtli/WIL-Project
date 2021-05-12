@@ -143,7 +143,7 @@ div.divider {
 }
 
 img.person {
-  height: 60%;
+  height: 45%;
   z-index: 20;
   bottom: -3rem;
   position: absolute;
@@ -176,15 +176,19 @@ img.person {
   width: 14rem;
 }
 
+.popup-container button svg {
+  transform: rotate(90deg);
+  width: 14px;
+  height: 40px;
+}
 .popup-container button.btn {
   border-color: #fff;
+  color: #fff;
+  fill: #fff;
 }
 .popup-container > button.btn {
   box-shadow: 0px 6px 27px 0px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-}
-.popup-container button.btn:hover {
-  color: #fff;
 }
 
 /* nursing  : 03b19d */
@@ -207,15 +211,11 @@ img.person {
 }
 
 .degrees .popup-container {
-  position: relative;
-  /* margin-top: 15rem;
-  margin-left: 14rem; */
-
+  position: absolute;
   padding-top: 15rem;
   padding-left: 12rem;
   z-index: 30;
-  /* margin-top: 17rem;
-  margin-left: 20rem; */
+  bottom: -2rem;
 }
 
 .panel.degrees > div:nth-child(2) .popup-container {
@@ -226,15 +226,15 @@ img.person {
 }
 
 .nurse > img.degree {
-  width: 102%;
+  width: 106%;
 }
 .teacher > img.degree {
   width: 102%;
-  left: -9px;
+  left: -11px;
 }
 .graduate > img.degree {
   width: 112%;
-  left: -35px;
+  left: -28px;
 }
 
 .image-panel {
@@ -280,4 +280,47 @@ img.person {
   line-height: 1.4em;
   letter-spacing: 0.45em;
   text-align: center;
+}
+
+.degrees .degree-summary {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 8;
+  margin: 4rem;
+  margin-bottom: 0;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.degrees .degree-summary li {
+  line-height: normal;
+}
+
+.degrees .degree-summary h2 {
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.nurse .paperclip,
+.teacher .paperclip {
+  z-index: 10;
+  height: 22%;
+  position: absolute;
+  right: 7px;
+  top: 7rem;
+}
+
+.graduate .paperclip {
+  z-index: 10;
+  height: 22%;
+  position: absolute;
+  right: 7px;
+  top: 7rem;
+}
+
+.teacher img.person,
+.graduate img.person {
+  right: 0;
 }

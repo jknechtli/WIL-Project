@@ -58,8 +58,9 @@
 
       <div class="panel degrees">
         <div class="nurse">
-          <img src="/dashboard/img/NURSES-REC.png" class="degree " alt="" />
-          <div style="display: none;">
+          <img src="/dashboard/img/NURSES-REC2.webp" class="degree " alt="" />
+          <div class="degree-summary">
+            <img src="/dashboard/img/paperclip.webp" class="paperclip " alt="" />
             <h2> RESUMES FOR INTERNATIONAL NURSES / NURSING COURSES </h2>
             <p>
               For international nurses who are applying for any advertised or non-advertised jobs we offer the following professional job application services:
@@ -76,7 +77,9 @@
             </ul>
           </div>
           <div class="popup-container">
-            <button id="nursing-menu-btn" class="btn">arrow</button>
+            <button id="nursing-menu-btn" class="btn">
+              <?php include '../shared/arrow.html'; ?>
+            </button>
             <div id="nursing-menu" class="vertical-btn-group btn-group">
               <a href="/nursing/international-resumes.php">
                 <button class="btn">International Nurses <br>and Resumes Services</button>
@@ -101,8 +104,9 @@
           <img src="/dashboard/img/NURSE.png" class="person" alt="" />
         </div>
         <div class="graduate">
-          <img src="/dashboard/img/GRADUATES-REC.png" class="degree " alt="" />
-          <div style="display: none;">
+          <img src="/dashboard/img/GRADUATES-REC2.webp" class="degree " alt="" />
+          <div class="degree-summary">
+            <img src="/dashboard/img/paperclip.webp" class="paperclip " alt="" />
             <h2>GRADUATE RESUMES</h2>
             <p>
               For university graduates who are applying for any advertised or non-advertised jobs or graduate programs we offer the following professional job application services:​
@@ -116,7 +120,9 @@
             </ul>
           </div>
           <div class="popup-container">
-            <button id="graduate-menu-btn" class="btn">arrow</button>
+            <button id="graduate-menu-btn" class="btn">
+              <?php include '../shared/arrow.html'; ?>
+            </button>
             <div id="graduate-menu" class="vertical-btn-group btn-group">
               <a href="/graduates/graduates-resumes.php">
                 <button class="btn">Graduates Resumes</button>
@@ -135,8 +141,9 @@
           <img src="/dashboard/img/GRADUATE.png" class="person" alt="" />
         </div>
         <div class="teacher">
-          <img src="/dashboard/img/TEACHERS-REC.png" class="degree" alt="" />
-          <div style="display: none;">
+          <img src="/dashboard/img/TEACHERS-REC2.webp" class="degree" alt="" />
+          <div class="degree-summary">
+            <img src="/dashboard/img/paperclip.webp" class="paperclip" alt="" />
             <h2> TEACHER RESUMES </h2>
             <p>
               For graduate teachers, education professionals and experienced leaders in education who are applying for any advertised or non-advertised jobs we offer the following professional job application services:​
@@ -150,7 +157,9 @@
             </ul>
           </div>
           <div class="popup-container">
-            <button id="teacher-menu-btn" class="btn">arrow</button>
+            <button id="teacher-menu-btn" class="btn">
+              <?php include '../shared/arrow.html'; ?>
+            </button>
             <div id="teacher-menu" class="vertical-btn-group btn-group">
               <a href="/teachers/teacher-resumes.php">
                 <button class="btn">Resumes</button>

@@ -39,7 +39,7 @@ $foundArray = [];
 foreach ($descriptions as $key => $value) {
     // echo "Query " . $query . ",  key: " . $key . ",  value: " . $descriptions[$key] . "\n\n";
     // unset($array[$key]); 
-    if (strpos($key, $query) || strpos($descriptions[$key], $query)) {
+    if (strpos(strtolower($key), strtolower($query)) || strpos(strtolower($descriptions[$key]), strtolower($query))) {
         array_push($foundArray, $key);
         // $foundArray.push
     }

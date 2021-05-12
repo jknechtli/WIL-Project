@@ -78,11 +78,51 @@ body {
   width: 100%;
 }
 
+.menu .btn-group svg {
+  flex-grow: 1;
+}
+
+.menu .btn-group path {
+  fill: #fff;
+}
+
+.menu > .btn-group > a:hover path,
+.menu > .btn-group > div:hover a > button:hover,
+.menu > .btn-group > a:hover button,
+.menu > .btn-group > div:hover,
+.menu > .btn-group > a:hover {
+  fill: rgb(62, 204, 181);
+  color: rgb(62, 204, 181);
+}
+
+.menu > .btn-group > div,
+.menu > .btn-group > a {
+  width: 10%;
+  background: transparent;
+  border-color: transparent;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column;
+  height: 4rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .menu .btn-group > div, */
+.menu .btn-group > a > button {
+  width: 100%;
+  background: transparent;
+  border-color: transparent;
+}
+
+.menu .vertical-btn-group.btn-group {
+  margin-top: calc(4rem - 6px);
+}
 .menu .btn-group {
   background-color: var(--bg-grey);
   z-index: 10;
   margin-top: 8rem;
-  padding: 2rem 0;
+  padding: 2rem 10rem 1rem;
   width: 100%;
 }
 
@@ -220,13 +260,13 @@ body {
   margin-top: 2rem;
 }
 
-.btn-group .btn:first-child {
-  margin-right: 2rem;
+/* .btn-group .btn:first-child { */
+/* margin-right: 2rem;
 }
 
 .btn-group .btn:last-child {
-  margin-left: 2rem;
-}
+  margin-left: 2rem; */
+/* } */
 
 .heading {
   background-color: rgb(226, 28, 33);
@@ -496,4 +536,19 @@ p {
 }
 .tri-split > div {
   flex-grow: 1;
+}
+
+.about-icon {
+  margin-left: 5px;
+}
+.home-icon,
+.contact-icon,
+.faq-icon {
+  margin-left: calc(50% - 12px);
+}
+.media-icon {
+  margin-left: calc(50% - 8.5px);
+}
+.blog-icon {
+  margin-left: calc(50% - 2.5px);
 }
