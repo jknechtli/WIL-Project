@@ -165,7 +165,7 @@ img.person {
 }
 
 .degrees .vertical-btn-group {
-  z-index: 100;
+  z-index: 30;
   /* width: 10rem; */
   left: 22rem;
   top: 1rem;
@@ -213,16 +213,16 @@ img.person {
 
   padding-top: 15rem;
   padding-left: 12rem;
-  z-index: 100;
+  z-index: 30;
   /* margin-top: 17rem;
   margin-left: 20rem; */
 }
 
 .panel.degrees > div:nth-child(2) .popup-container {
-  z-index: 99;
+  z-index: 29;
 }
 .panel.degrees > div:nth-child(3) .popup-container {
-  z-index: 98;
+  z-index: 28;
 }
 
 .nurse > img.degree {
