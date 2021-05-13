@@ -310,6 +310,7 @@ button.btn.menu-btn {
   padding: 2rem 15%;
 }
 
+.bold,
 .description p.bold {
   font-weight: bold;
   /* text-align: center; */
