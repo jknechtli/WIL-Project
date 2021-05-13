@@ -5,11 +5,11 @@
   <?php include '../shared/head.html'; ?>
 </head>
 
-<body>
+<body class="teachers-page">
   <div class="container">
     <?php include '../shared/header.html'; ?>
     <div class="contents">
-      <div class="heading teachers">
+      <div class="heading">
         <h1>TEACHERS RESUMES</h1>
       </div>
       <div class="description">
@@ -40,7 +40,7 @@
         </ul>
         <div class="split">
           <div>
-            <p class="bold"> Teachers </p>
+            <h3> Teachers </h3>
             <ul>
               <li>Childcare Teachers / Educators </li>
               <li>Early Childhood Teachers / Educators </li>
@@ -58,7 +58,7 @@
             </ul>
           </div>
           <div>
-            <p class="bold"> Managers </p>
+            <h3> Managers </h3>
             <ul>
 
               <li>Principals </li>
@@ -72,11 +72,7 @@
           </div>
         </div>
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text
-        <a href="tel:0447840393">0447 840 393</a> or message us on social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>

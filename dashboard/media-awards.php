@@ -14,13 +14,9 @@
       </div>
       <div class="description">
         <p>For our media and awards activities please LIKE Exceptional Study Australia on Facebook or FOLLOW Exceptional Study Australia on LinkedIn or Instagram. </p>
-        <img src="/img/media-awards.webp" alt="">
+        <img class="media-image" src="/img/media-awards.webp" alt="">
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text
-        <a href="tel:0447840393">0447 840 393</a> or message us on social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>

@@ -5,11 +5,11 @@
   <?php include '../shared/head.html'; ?>
 </head>
 
-<body>
+<body class="graduates-page">
   <div class="container">
     <?php include '../shared/header.html'; ?>
     <div class="contents">
-      <div class="heading graduates">
+      <div class="heading">
         <h1>GRADUATES RESUMES</h1>
       </div>
       <div class="description">
@@ -37,11 +37,7 @@
           <li>Counselling graduates</li>
         </ul>
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text
-        <a href="tel:0447840393">0447 840 393</a> or message us on social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>

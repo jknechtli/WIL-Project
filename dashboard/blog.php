@@ -13,7 +13,7 @@
         <h1>ABOUT</h1>
       </div>
       <div class="description">
-        <p class="bold">Articles for university graduates </p>
+        <h3>Articles for university graduates </h3>
         <ol>
           <li><a href="blogs/Grad Blog - Where to find graduate entry level jobs in Australia.pdf" download>Where to find graduate entry level jobs in Australia (CALLUM) </a></li>
           <li><a href="blogs/Grad Blog - Where to find graduate programs in Australia.pdf" download>Where to find graduate programs in Australia (CALLUM) </a></li>
@@ -27,7 +27,7 @@
           <li><a href="blogs/Grad Blog - Employment Options for New Graduates.pdf" download>Employment options for new graduates (BROOKE) </a></li>
           <li><a href="blogs/Grad Blog - How to find a good career mentor as a new graduate.pdf" download>How to find a good career mentor as a new graduate (BROOKE) </a></li>
         </ol>
-        <p class="bold"> Articles for international nurses </p>
+        <h3> Articles for international nurses </h3>
         <ol>
           <li><a href="blogs/Nursing Blog - " download>How to become an Assistant in Nursing (AIN) in Australia (ALEX)</a></li>
           <li><a href="blogs/Nursing Blog - " download>How to become an Enrolled Nurse (AIN) in Australia (ALEX)</a></li>
@@ -40,7 +40,7 @@
           <li><a href="blogs/Nursing Blog - What to Do If You Have Missed Out on Getting a Place in a Nursing Graduate Program.pdf" download>What to do if you have missed out getting a place in a nursing graduate program? (CARIENE)</a></li>
           <li><a href="blogs/Nursing Blog - " download> Australian nursing recruitment agencies list</a></li>
         </ol>
-        <p class="bold"> Articles for teachers </p>
+        <h3> Articles for teachers </h3>
         <ol>
           <li><a href="blogs/Teacher Blog - How to apply for a primary school teacher position as a new education graduate in Australia.pdf" download>How to apply for a primary school teacher job as a new education graduate in Australia (HONOKA) </a></li>
           <li><a href="blogs/Teacher Blog - How to apply for a secondary school teacher position as a new education graduate in Australia.pdf" download>How to apply for a secondary school teacher job as a new education graduate in Australia (HONOKA) </a></li>
@@ -50,11 +50,7 @@
           <li><a href="blogs/Teacher Blog - How to apply for a university lecturer position in Australian universities.pdf" download>How to apply for a teaching job in Australian universities (HONOKA) </a></li>
         </ol>
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text
-        <a href="tel:0447840393">0447 840 393</a> or message us on social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>

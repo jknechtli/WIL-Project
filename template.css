@@ -131,6 +131,10 @@ body {
   cursor: default !important;
 }
 
+.dropdown label {
+  margin-top: 0.5rem;
+}
+
 .dropdown:hover .vertical-btn-group {
   display: unset;
 }
@@ -176,7 +180,7 @@ button.btn.menu-btn {
   margin: 2.5rem;
   /* height: 3rem;
   width: 3rem; */
-  
+
   width: fit-content;
   height: fit-content;
   background: transparent;
@@ -280,13 +284,16 @@ button.btn.menu-btn {
   padding-top: 2rem;
 }
 
-.heading.graduates {
+.graduates-page .enquiries,
+.graduates-page .heading {
   background-color: #1ba2ff;
 }
-.heading.teachers {
+.teachers-page .enquiries,
+.teachers-page .heading {
   background-color: #5cd660;
 }
-.heading.nursing {
+.nursing-page .enquiries,
+.nursing-page .heading {
   background-color: #03b19d;
 }
 
@@ -383,6 +390,11 @@ p {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.description img.media-image {
+  float: unset;
+  margin-left: calc(50% - 206px);
 }
 
 /*#region Footer*/

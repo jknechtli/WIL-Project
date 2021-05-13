@@ -46,7 +46,12 @@ foreach ($descriptions as $key => $value) {
 }
 // echo "');</script>";
 
-echo count($foundArray) . " results found";
+$s = "";
+if (count($foundArray) > 1) {
+    $s = "s";
+}
+
+echo count($foundArray) . " result" . $s . " found containing \"" . $query . "\"";
 
 $htmlReturn = "";
 // echo "<script>console.log('";

@@ -36,11 +36,7 @@
           At Exceptional Study Australia, we are a people business. Therefore we treat all of our team members and clients with utmost kindness, care and respect in all interactions. We aim to provide exceptional customer service from start to finish of our resume or education process. It is our goal to entirely achieve a positive customer experience through being responsive, understanding and maintaining integrity in all that we do.
         </p>
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text <a href="tel:0447840393">0447 840 393</a> or message us on
-        social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>

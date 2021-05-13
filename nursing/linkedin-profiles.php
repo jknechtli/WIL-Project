@@ -5,11 +5,11 @@
   <?php include '../shared/head.html'; ?>
 </head>
 
-<body>
+<body class="nursing-page">
   <div class="container">
     <?php include '../shared/header.html'; ?>
     <div class="contents">
-      <div class="heading nursing">
+      <div class="heading">
         <h1>NURSING RESUMES</h1>
       </div>
       <div class="description">
@@ -22,11 +22,7 @@
           Exceptional Study Australia provides a professional team to complete LinkedIn profile writing services. Including but not limited to writing personal profiled, career goals, work experience and any awards in your life. Each professional writer of our team plays a different role. We provide a keyword-optimized profile service. Our goal is to develop a comprehensive profile for our jobseekers, achieve a higher ranking on the LinkedIn platform, differentiate our customers from our competitors, and increase our jobseekers’ overall visibility to recruiters and potential employers online.
         </p>
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text
-        <a href="tel:0447840393">0447 840 393</a> or message us on social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>

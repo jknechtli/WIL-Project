@@ -6,19 +6,13 @@
   <link rel="stylesheet" href="/dashboard/stylesheets/home.css" />
 </head>
 
-<body>
+<body class="home-page">
   <div class="container">
     <?php include '../shared/header.html'; ?>
     <div class="contents">
-      <div class="image-panel panel"></div>
-      <!-- <h1>Support your future</h1>
-          <h2>Let us help you to get a job</h2>
-          <div class="btn-group">
-            <-- <button class="btn">GTE & VISA Help ></button> ->
-            <button class="btn">Resumes Held ></button>
-          </div> -->
-      <!-- <img class="logo" src="/dashboard/img/logo.webp" alt="Logo" /> -->
-      <!-- </div> -->
+      <div class="image-panel panel">
+        <img src="/dashboard/img/GRADUATES.webp" alt="">
+      </div>
 
       <div class="panel text">
         <h1>
@@ -58,7 +52,7 @@
 
       <div class="panel degrees">
         <div class="nurse">
-          <img src="/dashboard/img/NURSES-REC2.webp" class="degree " alt="" />
+          <!-- <img src="/dashboard/img/NURSES-REC2.webp" class="degree " alt="" /> -->
           <div class="degree-summary">
             <img src="/dashboard/img/paperclip.webp" class="paperclip " alt="" />
             <h2> RESUMES FOR INTERNATIONAL NURSES / NURSING COURSES </h2>
@@ -141,7 +135,7 @@
           <img src="/dashboard/img/GRADUATE.png" class="person" alt="" />
         </div>
         <div class="teacher">
-          <img src="/dashboard/img/TEACHERS-REC2.webp" class="degree" alt="" />
+          <!-- <img src="/dashboard/img/TEACHERS-REC2.webp" class="degree" alt="" /> -->
           <div class="degree-summary">
             <img src="/dashboard/img/paperclip.webp" class="paperclip" alt="" />
             <h2> TEACHER RESUMES </h2>
@@ -242,7 +236,7 @@
           <input class="text-input" type="text" name="Name" id="nameInput" required maxlength="100" />
           <label for="emailInput">Email</label>
           <input class="text-input" type="text" name="Email" id="emailInput" required maxlength="100" pattern="^.+@.+\.[a-zA-Z]{2,63}$" />
-          <label for="occupationInput">Your occupation is...</label>
+          <label for="occupationInput" required>Your occupation is...</label>
           <div class="input-holder">
             <input type="radio" name="Occupation" id="nurse" value="nurse" />
             <label for="nurse">Nurse</label>
@@ -255,6 +249,8 @@
             <input type="radio" name="Occupation" id="graduate" value="graduate" />
             <label for="graduate">Graduate</label>
           </div>
+          <label for="commentInput" required>Comments</label>
+          <input class="text-input" type="text" name="Comment" id="commentInput" />
           <button class="btn" type="submit">Submit</button>
           <!-- <input type="text" name="Name" id="nameInput"> -->
         </form>
@@ -311,20 +307,20 @@ if (isset($_POST['submit'])) {
   var closeAll = function() {
     document.getElementById("nursing-menu").style.display = "none";
     document.getElementById("graduate-menu").style.display = "none";
-    console.log("hit1")
+    // console.log("hit1")
   }
 
   $(window).click(closeAll);
 
 
   openNursingMenu = (mouseEvent) => {
-    console.log("hit3")
+    // console.log("hit3")
     closeAll();
     mouseEvent.stopPropagation();
     document.getElementById("nursing-menu").style.display = "flex";
   };
   openGraduateMenu = (mouseEvent) => {
-    console.log("hit4")
+    // console.log("hit4")
     closeAll();
     mouseEvent.stopPropagation();
     document.getElementById("graduate-menu").style.display = "flex";

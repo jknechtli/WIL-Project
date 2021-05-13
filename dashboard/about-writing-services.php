@@ -150,11 +150,7 @@
           As a university graduate, international nurse or teacher it is also highly worthwhile to consider presenting yourself online on the job platform of LinkedIn. In essence it can act as an online resume to help increase your job search opportunities and increase your exposure to employers. At Exceptional Study Australia our team of resume writers can create a highly targeted, professional and comprehensive online profile on the basis of your resume to attract and help you to be known by many employers. It also is a great opportunity for you to show potential recruiters and employers that you are innovative, up to date with technology and are a networker, three great traits which make you more attractive in today’s highly competitive job market.
         </p>
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text <a href="tel:0447840393">0447 840 393</a> or message us on
-        social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>

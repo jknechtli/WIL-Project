@@ -5,25 +5,21 @@
   <?php include '../shared/head.html'; ?>
 </head>
 
-<body>
+<body class="nursing-page">
   <div class="container">
     <?php include '../shared/header.html'; ?>
     <div class="contents">
-      <div class="heading nursing">
+      <div class="heading">
         <h1>NURSING RESUMES</h1>
       </div>
       <div class="description">
         <h2>BECOME A REGISTERED NURSE (RN) IN AUSTRALIA</h2>
         <img src="/img/become-rn.webp" alt="" />
-        <p class="bold">
-          What is Registered Nurse in Australia?
-        </p>
+        <h3> What is Registered Nurse in Australia? </h3>
         <p>
           In Australia Registered nurses are in charge of primary health care in hospitals, aged care, community institutions and school settings. It is a job with a high level of expertise, responsibility and respect within the healthcare environment. Registered nurses are usually a character of a unit manager or team leader in a health care service team. Enrolled nurses and assistants in nursing often report to registered nurses when they are in training or are in need of supervision or support within their nursing role.
         </p>
-        <p class="bold">
-          Duties
-        </p>
+        <h3> Duties </h3>
         <ul>
           <li>Observation and recording patients’ health care conditions and physical situations</li>
           <li>Giving medication to patients and providing them medical equipment relating with their health care outcomes</li>
@@ -31,7 +27,7 @@
           <li>Assisting in operations and providing post-operative preparations</li>
         </ul>
 
-        <p class="bold"> Special situation </p>
+        <h3> Special situation </h3>
         <p>
           Registered nurse are also in charge of communities and community events. They are usually responsible for health promotion, chronic disease management and prevention illness by providing care. They are always the best counsellors for health care in a community. This means that many RN face heavy workloads and are required to work with a high level of responsibility and diligence to meet patient needs.
 
@@ -43,12 +39,12 @@
         </p>
 
 
-        <p class="bold"> Job requirements </p>
+        <h3> Job requirements </h3>
         <p>
           In Australia registered nurses need to have completed a Bachelor of Nursing and apply to AHPRA (Australian Health Practitioners Regulation Agency) to practice as a registered nurse. They also need to renew their registration annually to keep their qualification. The also need to work for a couple of years in a general capacity as a registered Nurse. During this experience, it is also important for nurses to decide which areas they wish to specialise in. Nurses may elect to work in any of the following clinical areas: burns, cardiology, cosmetic nursing, community, dialysis, education, emergency, family health, aged care, infection control, intensive care, management, medical nursing, mental health, neonatal intensive care, oncology, paediatrics, peri-operative, plastic surgery, rehabilitation, remote area nursing, research, rural nursing, school nursing, surgical nursing or wound management.
 
         </p>
-        <p class="bold"> Student Visa Requirements </p>
+        <h3> Student Visa Requirements </h3>
         <p>
           For international nurses you will also need to ensure you secure a student visa if you intend to study nursing in Australia. Therefore you will need to gain the following:
         </p>
@@ -64,9 +60,9 @@
         </ul>
 
 
-        <p class="bold">How to apply for Registered Nurse
+        <h3>How to apply for Registered Nurse
 
-        </p>
+        </h3>
         <p>
           You will firstly need to complete a Bachelor of Nursing for 3 years in Australia on a full-time capacity. Some schools and universities can provide fast-tracking which make you be able to complete the degree in 2 years, including clinical placements. Basically, you will study on campus, face to face, with some elements delivered online to pass all of your courses. Often there will be 840 hours of clinical experience via professional placements during your study in a range of health care settings.
 
@@ -76,31 +72,24 @@
 
           The most important step for any registered nurse will of course be registering with the AHPRA (Australian Health Practitioners Regulation Agency) and meet the NMBA (Nursing and Midwifery Board of Australia)’s registration standard to work in Australia as a Registered Nurse.
         </p>
-        <p>
-          For more details of requirements please visit this link:
-
-        </p>
+        <p> For more details of requirements please visit this link: </p>
         <a href="www.nursingmidwiferyboard.gov.au/Registration-Standards.aspx">
           www.nursingmidwiferyboard.gov.au/Registration-Standards.aspx
         </a>
-        <p class="bold">Study to become a Registered Nurse in Australia as an international student </p>
+        <h3>Study to become a Registered Nurse in Australia as an international student </h3>
         <p>
           It is not secret that international students will face a lot of challenges and difficulty when they are trying to become a registered nurse in Australia. Beside the linguistic requirements of completing their IELTS test and meeting the minimal IELTS score, registered nurse also need to remember and use plenty of professional medical and clinical terminology during their work time. Also, they may experience different medical environments and requirements in Australia from their home countries. Therefore they need to adjust to these kinds of differences during their studying process of their Bachelor degrees.
         </p>
-        <p class="bold">Challenges</p>
+        <h3>Challenges</h3>
         <p>
           The work of a registered nurse can be quite different and mixed which depends on what kind of patients they are dealing with. Registered nurses often engage in shift work and are expected to work long periods of time. They may also need to work night shift or weekend work which can present social challenges if balancing work and family life. Sometimes more ambitious registered nurses may become a nursing leader, therefore with leadership comes a huge pressure and responsibility to make decisions relating with patients’ lives. Also, they may have to decide which field they wish to work in further while they are working. Therefore as professional development is an important element of the career of a registered nurse it can be expected that registered nurses will need to undertake ongoing study, short courses and inhouse education training to further their skills. Therefore an openness to learning would be expected. Additionally all registered nurses can expect to be challenged with various patients, team members and high pressure circumstances, therefore all actions should be taken with a high ethical and moral standard at all times. Patients and their welfare must always be made a priority and emotions sometimes need to be left at the door as a registered nurse.
         </p>
-        <p class="bold"> Salary </p>
+        <h3> Salary </h3>
         <p>
           The most common annual salary in Australia for registered nurses is generally between 65k AUD to 75k AUD. However if you train and specialize in other clinical fields, you can expect the salary to be higher in some employers and depending if you work in private or public healthcare organisations.
         </p>
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text
-        <a href="tel:0447840393">0447 840 393</a> or message us on social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>

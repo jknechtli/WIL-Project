@@ -5,11 +5,11 @@
   <?php include '../shared/head.html'; ?>
 </head>
 
-<body>
+<body class="graduates-page">
   <div class="container">
     <?php include '../shared/header.html'; ?>
     <div class="contents">
-      <div class="heading graduates">
+      <div class="heading">
         <h1>GRADUATES RESUMES</h1>
       </div>
       <div class="description">
@@ -21,9 +21,7 @@
         <p>
           As graduate students, it may have very strict requirements for some basic knowledge. Therefore we will ask you to demonstrate your knowledge, provide plenty of examples and test your confidence which we believe may be suitable for the position you are interviewing for. Our goal is to help you to succeed in your job interview and be able to answer any question in a calm, strong and confident manner.
         </p>
-        <p class="bold">
-          We will also cover:
-        </p>
+        <h3> We will also cover: </h3>
         <ul>
           <li>What hiring managers and recruiters are looking for from candidates</li>
           <li>Confidence and nerve control techniques</li>
@@ -38,11 +36,7 @@
           We will also send you a list of interview skills to help you prepare before your interview big day! Overall we want our graduates to be successful in any interview.
         </p>
       </div>
-      <div class="enquiries">
-        For all enquiries please email
-        <a href="mailto:exceptionalstudyaustralia@gmail.com">exceptionalstudyaustralia@gmail.com</a>, text
-        <a href="tel:0447840393">0447 840 393</a> or message us on social media
-      </div>
+      <?php include '../shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include '../shared/footer.html'; ?>
