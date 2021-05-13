@@ -45,7 +45,7 @@
           <li>Answers to selection criteria</li>
           <li>Suitability statements</li>
         </ul>
-        <a href="./about-writing-services.html">
+        <a href="./about-writing-services.php">
           <button class="btn">Resume Writing Services</button>
         </a>
         <!-- <h2>Let us help you to get a job</h2>
@@ -85,13 +85,13 @@
                 <button class="btn">International Nurses <br>and Resumes Services</button>
               </a>
               <a href="/nursing/become-assistant.php">
-                <button class="btn">Become AIN</button>
+                <button class="btn">Become an AIN</button>
               </a>
               <a href="/nursing/become-registered.php">
-                <button class="btn">Become RN</button>
+                <button class="btn">Become a RN</button>
               </a>
               <a href="/nursing/become-enrolled.php">
-                <button class="btn">Become EN</button>
+                <button class="btn">Become an EN</button>
               </a>
               <a href="/nursing/interview-training.php">
                 <button class="btn">Interview Training</button>
@@ -157,17 +157,11 @@
             </ul>
           </div>
           <div class="popup-container">
-            <button id="teacher-menu-btn" class="btn">
-              <?php include '../shared/arrow.html'; ?>
-            </button>
-            <div id="teacher-menu" class="vertical-btn-group btn-group">
-              <a href="/teachers/teacher-resumes.php">
-                <button class="btn">Resumes</button>
-              </a>
-              <!-- <a href="/teacher/become-enrolled.php">
-                <button class="btn">LinkedIn Profiles</button>
-              </a> -->
-            </div>
+            <a href="/teachers/teacher-resumes.php">
+              <button id="teacher-menu-btn" class="btn">
+                <?php include '../shared/arrow.html'; ?>
+              </button>
+            </a>
           </div>
           <img src="/dashboard/img/TEACHER.png" class="person" alt="" />
         </div>
@@ -239,40 +233,32 @@
       <div class="form-container">
         <img src="/dashboard/img/form-img.webp" alt="graduate holding degree" />
 
-        <?php include './../shared/form.php'; ?>
+        <!-- <php include './../shared/form.php'; ?> -->
 
-        <!-- <form action="" method="post">
+        <form action="" method="post">
           <h2>Contact Us</h2>
           <label for="nameInput">Name</label>
-          <!-- placeholder="" required="" maxlength="100" ->
-        <input class="text-input" type="text" name="Name" id="nameInput" required maxlength="100" />
-        <label for="emailInput">Email</label>
-        <input class="text-input" type="text" name="Email" id="emailInput" required maxlength="100" pattern="^.+@.+\.[a-zA-Z]{2,63}$" />
-        <label for="occupationInput">Your occupation is...</label>
-        <div class="input-holder">
-          <input type="radio" name="Occupation" id="nurse" value="nurse" />
-          <label for="nurse">Nurse</label>
-        </div>
-        <div class="input-holder">
-          <input type="radio" name="Occupation" id="teacher" value="teacher" />
-          <label for="teacher">Teacher</label>
-        </div>
-        <div class="input-holder">
-          <input type="radio" name="Occupation" id="graduate" value="graduate" />
-          <label for="graduate">Graduate</label>
-        </div>
-        <button class="btn" type="submit">Submit</button>
-        <!-- <input type="text" name="Name" id="nameInput"> ->
-        </form> -->
+          <!-- <placeholder="" required="" maxlength="100" -> -->
+          <input class="text-input" type="text" name="Name" id="nameInput" required maxlength="100" />
+          <label for="emailInput">Email</label>
+          <input class="text-input" type="text" name="Email" id="emailInput" required maxlength="100" pattern="^.+@.+\.[a-zA-Z]{2,63}$" />
+          <label for="occupationInput">Your occupation is...</label>
+          <div class="input-holder">
+            <input type="radio" name="Occupation" id="nurse" value="nurse" />
+            <label for="nurse">Nurse</label>
+          </div>
+          <div class="input-holder">
+            <input type="radio" name="Occupation" id="teacher" value="teacher" />
+            <label for="teacher">Teacher</label>
+          </div>
+          <div class="input-holder">
+            <input type="radio" name="Occupation" id="graduate" value="graduate" />
+            <label for="graduate">Graduate</label>
+          </div>
+          <button class="btn" type="submit">Submit</button>
+          <!-- <input type="text" name="Name" id="nameInput"> -->
+        </form>
       </div>
-
-      <!-- <h1>Support your future</h1>
-        <h2>Let us help you to get a job</h2>
-        <div class="btn-group">
-          <-- <button class="btn">GTE & VISA Help ></button> ->
-          <button class="btn">Resumes Held ></button>
-        </div> -->
-      <!-- <img class="logo" src="/dashboard/img/logo.webp" alt="Logo" /> -->
     </div>
     <div class="footer">
       <div class="links">
@@ -323,31 +309,27 @@ if (isset($_POST['submit'])) {
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
   var closeAll = function() {
-    document.getElementById("teacher-menu").style.display = "none";
     document.getElementById("nursing-menu").style.display = "none";
     document.getElementById("graduate-menu").style.display = "none";
+    console.log("hit1")
   }
 
   $(window).click(closeAll);
 
 
-  openTeacherMenu = (mouseEvent) => {
-    closeAll();
-    mouseEvent.stopPropagation();
-    document.getElementById("teacher-menu").style.display = "flex";
-  };
   openNursingMenu = (mouseEvent) => {
+    console.log("hit3")
     closeAll();
     mouseEvent.stopPropagation();
     document.getElementById("nursing-menu").style.display = "flex";
   };
   openGraduateMenu = (mouseEvent) => {
+    console.log("hit4")
     closeAll();
     mouseEvent.stopPropagation();
     document.getElementById("graduate-menu").style.display = "flex";
   };
 
-  document.getElementById("teacher-menu-btn").addEventListener("click", openTeacherMenu);
   document.getElementById("nursing-menu-btn").addEventListener("click", openNursingMenu);
   document.getElementById("graduate-menu-btn").addEventListener("click", openGraduateMenu);
 </script>

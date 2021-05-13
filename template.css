@@ -172,10 +172,15 @@ body {
   /* z-index: 49; */
 }
 
-.menu-btn {
+button.btn.menu-btn {
   margin: 2.5rem;
-  height: 3rem;
-  width: 3rem;
+  /* height: 3rem;
+  width: 3rem; */
+  
+  width: fit-content;
+  height: fit-content;
+  background: transparent;
+  border-color: transparent;
 }
 
 /*#endregion Header*/
