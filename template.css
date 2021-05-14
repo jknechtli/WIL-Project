@@ -25,7 +25,8 @@ body {
   left: 0;
   margin-left: 0;
   width: 80%;
-  height: 9rem;
+  /* height: 9rem; */
+  height: fit-content;
   padding: 0 10%;
   z-index: 50;
 }
@@ -62,6 +63,39 @@ body {
 .contact {
   text-align: right;
   font-size: 13px;
+  height: fit-content;
+}
+
+.socials{
+  height: fit-content;
+}
+
+.socials a {
+  color: transparent;
+  height: fit-content;
+}
+.socials .logo {
+  margin: 0;
+  height: 22px;
+  width: 22px;
+}
+
+.description .logo {
+  height: 22px;
+  width: 22px;
+  margin: 0;
+  float: unset;
+}
+
+.blog-page li {
+  position: relative;
+}
+.blog-page li img {
+  float: none;
+  margin: 0;
+  position: absolute;
+  left: -40px;
+  top: 6px;
 }
 
 .header .logo-container {
@@ -426,44 +460,6 @@ p {
   text-align: center;
 }
 
-.footer .links {
-  margin: 3rem;
-  position: relative;
-}
-
-.footer .gov-links {
-  display: flex;
-  flex-flow: column wrap;
-  height: 300px;
-}
-
-.footer .gov-links a {
-  width: 9rem;
-  padding: 1rem;
-  border-left: #ffffff 1px solid;
-  margin: 1rem;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.footer .gov-links a.AHPRAF {
-  flex-grow: 1;
-  height: 300px;
-}
-
-.footer .gov-links a:hover {
-  background: #7a7979;
-  color: #80c5ff;
-}
-
-.footer .gov-links a svg {
-  transition: inherit;
-  fill: #ffffff;
-  width: 9px;
-  height: 9px;
-  margin: 0px 0px 0px 4px;
-}
-
 /*#endregion Footer*/
 
 .search-option {
@@ -569,4 +565,93 @@ p {
 }
 .blog-icon {
   margin-left: calc(50% - 2.5px);
+}
+
+@media (max-width: 900px) {
+  .header {
+    width: 90%;
+    height: unset;
+    padding: 0 5%;
+  }
+  .header .logo {
+    width: 10rem;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .socials .logo {
+    margin: 0;
+    /* height: fit-content !important; */
+    width: calc(100% / 7);
+}
+
+  .header > div {
+    width: 50%;
+  }
+  .header > div:last-child {
+    width: 100%;
+  }
+  .header > * {
+    height: unset;
+  }
+  .header p {
+    display: none;
+  }
+  .search-bar {
+    width: 100%;
+    margin-left: unset;
+  }
+  button.btn.menu-btn {
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .menu .btn-group {
+    flex-flow: column;
+    min-width: 50%;
+    width: fit-content;
+    /* margin-right: 50%; */
+    left: 0;
+    padding: 0%;
+    height: 100%;
+    justify-content: start;
+    position: fixed;
+  }
+  .menu > .btn-group > div,
+  .menu > .btn-group > a {
+    display: flex;
+    width: 100%;
+    height: unset;
+  }
+  .menu .btn-group svg {
+    display: none;
+  }
+  .dropdown label {
+    margin-top: 0rem;
+    width: calc(100% - 0.5rem);
+    padding-left: 2.1rem;
+    text-align: left;
+  }
+
+  .vertical-btn-group.btn-group.header-dropdown {
+    height: fit-content;
+    position: relative;
+    margin: 0;
+    width: 100%;
+  }
+  .vertical-btn-group.btn-group.header-dropdown button {
+  justify-content: left;
+  }
+
+
+  .menu .btn-group > a > button {
+    text-align: left;
+    padding-left: 2rem;
+  }
+}
+
+@media (min-width: 1501) {
+  .menu > .btn-group > div,
+  .menu > .btn-group > a {
+    width: calc(100% / 6);
+  }
 }

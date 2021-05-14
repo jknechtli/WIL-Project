@@ -11,7 +11,7 @@
     <?php include '../shared/header.html'; ?>
     <div class="contents">
       <div class="image-panel panel">
-        <img src="/dashboard/img/GRADUATES.webp" alt="">
+        <!-- <img src="/dashboard/img/GRADUATES.webp" alt=""> -->
       </div>
 
       <div class="panel text">
@@ -40,19 +40,17 @@
           <li>Suitability statements</li>
         </ul>
         <a href="./about-writing-services.php">
-          <button class="btn">Resume Writing Services</button>
+          <button class="btn">RESUME WRITING SERVICES</button>
         </a>
-        <!-- <h2>Let us help you to get a job</h2>
-            <div class="btn-group"> -->
-        <!-- <button class="btn">GTE & VISA Help ></button> -->
-        <!-- <button class="btn">Resumes Held ></button>
-            </div> -->
-        <!-- <img class="logo" src="/dashboard/img/logo.webp" alt="Logo" /> -->
+        <p class="with-gap">
+          We also offer nursing courses for international students and internationally trained nurses who wish to become nurses in Australia .
+        </p>
+        <a href="./about-writing-services.php">
+          <button class="btn">STUDY NURSING IN AUSTRALIA</button>
+        </a>
       </div>
-
       <div class="panel degrees">
         <div class="nurse">
-          <!-- <img src="/dashboard/img/NURSES-REC2.webp" class="degree " alt="" /> -->
           <div class="degree-summary">
             <img src="/dashboard/img/paperclip.webp" class="paperclip " alt="" />
             <h2> RESUMES FOR INTERNATIONAL NURSES / NURSING COURSES </h2>
@@ -65,10 +63,16 @@
               <li>LinkedIn profiles</li>
               <li>Answers to selection criteria</li>
               <li>Suitability statements</li>
-              <li>Become an assistant in nursing (AIN)</li>
-              <li>Become an enrolled nurse (EN)</li>
-              <li>Become a registered nurse (RN)</li>
             </ul>
+            <p>
+              For international students who wish o]to study nursing we also offer assistance in becoming:
+            </p>
+            <ul>
+              <li>Assistant in nursing (AIN)</li>
+              <li>Enrolled nurse (EN)</li>
+              <li>Registered nurse (RN)</li>
+            </ul>
+            <img src="/dashboard/img/NURSE.png" class="person" alt="" />
           </div>
           <div class="popup-container">
             <button id="nursing-menu-btn" class="btn">
@@ -94,8 +98,8 @@
                 <button class="btn">LinkedIn Profiles</button>
               </a>
             </div>
+
           </div>
-          <img src="/dashboard/img/NURSE.png" class="person" alt="" />
         </div>
         <div class="graduate">
           <img src="/dashboard/img/GRADUATES-REC2.webp" class="degree " alt="" />
@@ -112,6 +116,7 @@
               <li>Answers to selection criteria</li>
               <li>Suitability statements</li>
             </ul>
+            <img src="/dashboard/img/GRADUATE.png" class="person" alt="" />
           </div>
           <div class="popup-container">
             <button id="graduate-menu-btn" class="btn">
@@ -131,11 +136,10 @@
                 <button class="btn">Interview Training</button>
               </a>
             </div>
+
           </div>
-          <img src="/dashboard/img/GRADUATE.png" class="person" alt="" />
         </div>
         <div class="teacher">
-          <!-- <img src="/dashboard/img/TEACHERS-REC2.webp" class="degree" alt="" /> -->
           <div class="degree-summary">
             <img src="/dashboard/img/paperclip.webp" class="paperclip" alt="" />
             <h2> TEACHER RESUMES </h2>
@@ -149,6 +153,7 @@
               <li>Answers to selection criteria</li>
               <li>Suitability statements</li>
             </ul>
+            <img src="/dashboard/img/TEACHER.png" class="person" alt="" />
           </div>
           <div class="popup-container">
             <a href="/teachers/teacher-resumes.php">
@@ -156,8 +161,8 @@
                 <?php include '../shared/arrow.html'; ?>
               </button>
             </a>
+
           </div>
-          <img src="/dashboard/img/TEACHER.png" class="person" alt="" />
         </div>
       </div>
     </div>
@@ -226,13 +231,9 @@
 
       <div class="form-container">
         <img src="/dashboard/img/form-img.webp" alt="graduate holding degree" />
-
-        <!-- <php include './../shared/form.php'; ?> -->
-
         <form action="" method="post">
           <h2>Contact Us</h2>
           <label for="nameInput">Name</label>
-          <!-- <placeholder="" required="" maxlength="100" -> -->
           <input class="text-input" type="text" name="Name" id="nameInput" required maxlength="100" />
           <label for="emailInput">Email</label>
           <input class="text-input" type="text" name="Email" id="emailInput" required maxlength="100" pattern="^.+@.+\.[a-zA-Z]{2,63}$" />
@@ -252,7 +253,6 @@
           <label for="commentInput" required>Comments</label>
           <input class="text-input" type="text" name="Comment" id="commentInput" />
           <button class="btn" type="submit">Submit</button>
-          <!-- <input type="text" name="Name" id="nameInput"> -->
         </form>
       </div>
     </div>
@@ -261,21 +261,30 @@
         <h1>LINKS</h1>
         <div class="gov-links">
           <a href="">Northern Territory Health
-            <svg data-bbox="13.05 2.55 33.878 54.8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
-              <g>
-                <path d="M46.5 28.9L20.6 3c-.6-.6-1.6-.6-2.2 0l-4.8 4.8c-.6.6-.6 1.6 0 2.2l19.8 20-19.9 19.9c-.6.6-.6 1.6 0 2.2l4.8 4.8c.6.6 1.6.6 2.2 0l21-21 4.8-4.8c.8-.6.8-1.6.2-2.2z"></path>
-              </g>
-            </svg>
+            <?php include '../shared/little-arrow.html'; ?>
           </a>
-          <a href="">South Australia Health</a>
-          <a href="https://www.health.qld.gov.au/employment">Queensland Health</a>
-          <a href="">Western Australia Health</a>
-          <a href="">New South Wales Health</a>
-          <a href="">Tasmania Health</a>
-          <a href="">Victoria Health</a>
-          <a class="AHPRAF" href="">AHPRA</a>
+          <a href="">South Australia Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="https://www.health.qld.gov.au/employment">Queensland Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="">Western Australia Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="">New South Wales Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="">Tasmania Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="">Victoria Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a class="AHPRAF" href="">AHPRA (Austalian Health Practitioners Regulation Agency)<?php include '../shared/little-arrow.html'; ?></a>
+          <div class="commitment">
+            <img class="logo" src="/img/logo.webp" alt="Logo" />
+            <p>
+              Exceptional Study Australia is committed to helping every international nurse, university graduate or teacher to achieve exceptional results professionally when applying for employment
+            </p>
+            <div class="socials">
+              <a href="https://twitter.com/ExceptionalAust">
+                <img class="social-logo" src="/img/icons/twitter-3.png" alt="Logo" />
+              </a>
+              <a href="https://www.facebook.com/exceptionalstudyaustralia/">
+                <img class="social-logo" src="/img/icons/facebook-3.png" alt="Logo" />
+              </a>
+            </div>
+          </div>
         </div>
-        <div>social links?</div>
       </div>
       <?php include '../shared/footer.html'; ?>
     </div>

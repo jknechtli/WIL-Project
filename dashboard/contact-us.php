@@ -29,36 +29,42 @@
         </ul>​
         <h3>Connect With Us on Social Media</h3>​
         <p>
+          <img class="logo" src="/img/icons/facebook-2.png" alt="">
           <span class="bold"> Facebook: </span>
           <a href="https://www.facebook.com/exceptionalstudyaustralia/">
             facebook.com/exceptionalstudyaustralia/
           </a>
         </p>
         <p>
+          <img class="logo" src="/img/icons/twitter-2.png" alt="">
           <span class="bold"> Twitter: </span>
           <a href="https://twitter.com/ExceptionalAust">
             twitter.com/ExceptionalAust
           </a>
         </p>
         <p>
+          <img class="logo" src="/img/icons/insta-2.png" alt="">
           <span class="bold">Instagram:</span>
           <a href="https://www.instagram.com/exceptional_study_australia/?hl=en">
             instagram.com/exceptional_study_australia/?hl=en
           </a>
         </p>
         <p>
+          <img class="logo" src="/img/icons/linkedin-2.png" alt="">
           <span class="bold">LinkedIn:</span>
           <a href="https://au.linkedin.com/company/exceptional-study-australia">
             au.linkedin.com/company/exceptional-study-australia
           </a>
         </p>
         <p>
+          <img class="logo" src="/img/icons/youtube-2.png" alt="">
           <span class="bold">Youtube:</span>
           <a href="https://www.youtube.com/channel/UCa1502fgXTAEJ_ah4wa64Dw">
             youtube.com/channel/UCa1502fgXTAEJ_ah4wa64Dw
           </a>
         </p>
         <p>
+          <img class="logo" src="/img/icons/tiktok-2.png" alt="">
           <span class="bold">TikTok:</span>
           <a href="exceptionalstudyau">
             exceptionalstudyau
