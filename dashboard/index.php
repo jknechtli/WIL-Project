@@ -80,22 +80,22 @@
             </button>
             <div id="nursing-menu" class="vertical-btn-group btn-group">
               <a href="/nursing/international-resumes.php">
-                <button class="btn">International Nurses <br>and Resumes Services</button>
+                <button class="btn">INTERNATIONAL NURSES <br>AND RESUMES SERVICES</button>
               </a>
               <a href="/nursing/become-assistant.php">
-                <button class="btn">Become an AIN</button>
+                <button class="btn">BECOME AN ASSISTANT IN NURSING (AIN)</button>
               </a>
               <a href="/nursing/become-registered.php">
-                <button class="btn">Become a RN</button>
+                <button class="btn">BECOME A REGISTER NURSE (RN)</button>
               </a>
               <a href="/nursing/become-enrolled.php">
-                <button class="btn">Become an EN</button>
+                <button class="btn">BECOME AN ENROLLED NURSE (EN)</button>
               </a>
               <a href="/nursing/interview-training.php">
-                <button class="btn">Interview Training</button>
+                <button class="btn">INTERVIEW TRAINING</button>
               </a>
               <a href="/nursing/study-nursing-in-australia.php">
-                <button class="btn">Study Nursing in Australia</button>
+                <button class="btn">STUDY NURSING IN AUSTRALIA</button>
               </a>
             </div>
 
@@ -124,16 +124,16 @@
             </button>
             <div id="graduate-menu" class="vertical-btn-group btn-group">
               <a href="/graduates/graduates-resumes.php">
-                <button class="btn">Graduates Resumes</button>
+                <button class="btn">GRADUATES RESUMES</button>
               </a>
               <a href="/graduates/selection-criteria.php">
-                <button class="btn">Selection Criteria</button>
+                <button class="btn">SELECTION CRITERIA</button>
               </a>
               <a href="/graduates/linkedin-profiles.php">
-                <button class="btn">LinkedIn Profiles</button>
+                <button class="btn">LINKEDIN PROFILES</button>
               </a>
               <a href="/graduates/interview-training.php">
-                <button class="btn">Interview Training</button>
+                <button class="btn">INTERVIEW TRAINING</button>
               </a>
             </div>
 
@@ -254,6 +254,7 @@
           <input class="text-input" type="text" name="Comment" id="commentInput" />
           <button class="btn" type="submit">Submit</button>
         </form>
+        <!-- <php include '../shared/form.php'; ?> -->
       </div>
     </div>
     <div class="footer">
@@ -292,17 +293,23 @@
 </body>
 <?php
 if (isset($_POST['submit'])) {
-  $to = "exceptionalstudyaustralia@gmail.com"; // this is your Email address
-  $from = $_POST['Email']; // this is the sender's Email address
-  $first_name = $_POST['Name'];
-  $subject = "Form submission";
-  $message = $first_name . " wrote the following: hi";
+  // $to = "exceptionalstudyaustralia@gmail.com"; // this is your Email address
+  // $from = $_POST['Email']; // this is the sender's Email address
+  // $first_name = $_POST['Name'];
+  // $subject = "Form submission";
+  // $message = $first_name . " wrote the following: hi";
 
-  $headers = "From:" . $from;
+  // $headers = "From:" . $from;
   // $headers2 = "From:" . $to;
-  mail($to, $subject, $message, $headers);
-  // echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
-  // You can also use header('Location: thank_you.php'); to redirect to another page.
+      $to      = 'jknechtli@hotmail.com';
+      $subject = 'Email Test';
+      $message = 'Hello World';
+      $headers = 'From: contactusform@exceptionalstudyaustralia.com' . "\r\n" .
+          'CC: info@theirdomain.com';
+          'Reply-To: info@yourdomain.com' . "\r\n" .
+          'X-Mailer: PHP/' . phpversion();
+
+      mail($to, $subject, $message, $headers);
 }
 ?>
 
