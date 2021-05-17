@@ -34,31 +34,23 @@ foreach ($jsonIterator as $key => $val) {
 $query = $_GET["search"];
 $foundArray = [];
 
-// echo "<script>console.log('";
-
 foreach ($descriptions as $key => $value) {
-    // echo "Query " . $query . ",  key: " . $key . ",  value: " . $descriptions[$key] . "\n\n";
-    // unset($array[$key]); 
     if (strpos(strtolower($key), strtolower($query)) || strpos(strtolower($descriptions[$key]), strtolower($query))) {
         array_push($foundArray, $key);
-        // $foundArray.push
     }
 }
-// echo "');</script>";
 
 $s = "";
 if (count($foundArray) > 1) {
     $s = "s";
 }
 
-echo count($foundArray) . " result" . $s . " found containing \"" . $query . "\"";
+echo count($foundArray) . " result" . $s . " found containing \"" . htmlspecialchars($query) . "\"";
 
 $htmlReturn = "";
-// echo "<script>console.log('";
 foreach ($foundArray as $key => $title) {
     $url = $urls[$title];
     $description = $descriptions[$title];
-    // echo "value: " . $value . ",  title: " . $title . ",  url: " . $url . "\n\n";
 
     $panel = "
     <div class='search-option'>
@@ -71,9 +63,5 @@ foreach ($foundArray as $key => $title) {
     </div>";
     $htmlReturn .= $panel;
 }
-// echo "');</script>";
 
 echo $htmlReturn;
-echo "<script>console.log('";
-echo "Mail Sent. Thank you " . $query . ", we will contact you shortly. " . count($foundArray) . " asda sd  " . $htmlReturn;
-echo "');</script>";

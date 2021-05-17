@@ -77,6 +77,11 @@ body {
   width: 22px;
 }
 
+.contact-socials img.logo {
+  margin: 0;
+  width: 42px;
+  height: 42px;
+}
 .description .logo {
   height: 22px;
   width: 22px;
@@ -536,6 +541,10 @@ p {
     width: 10rem;
     margin: 0;
     margin-top: 1rem;
+  }
+
+  .description img.blog-img {
+    display: none;
   }
 
   .socials {

@@ -13,6 +13,7 @@
         <h1>ABOUT</h1>
       </div>
       <div class="description">
+        <img class="blog-img" src="/img/blog.webp" alt="logo">
         <h3>Articles for university graduates </h3>
         <ol>
           <a href="blogs/Grad Blog - Where to find graduate entry level jobs in Australia.pdf" download>

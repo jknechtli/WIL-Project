@@ -23,6 +23,7 @@
 }
 .panel.text h1 {
   padding: 0 10%;
+  margin-bottom: 16px;
 }
 .panel.text ul {
   list-style-type: none;
@@ -43,6 +44,9 @@
 .panel.text .btn {
   transition: all 0.2s ease-out;
 }
+.panel.text p:nth-child(3) {
+  margin-top: 16px;
+}
 
 .form-section {
   background-image: url("/dashboard/img/form-bg.webp");
@@ -50,7 +54,6 @@
 }
 .form-section .info-banner {
   display: flex;
-  margin: 0 10%;
   padding-left: 2rem;
   padding-bottom: 3rem;
   background-color: rgba(52, 64, 66, 0.73);
@@ -400,7 +403,7 @@ img.person {
 
 .commitment {
   background-color: #252b34;
-  width: 14%;
+  width: 13rem;
   height: 100%;
   padding: 1rem;
   color: #94989a;

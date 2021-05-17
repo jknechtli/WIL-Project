@@ -8,10 +8,10 @@
       <?php include '../shared/header.html';?>
       <div class="contents">
         <div class="heading">
-          <h1>About</h1>
+          <h1>ABOUT</h1>
         </div>
         <div class="description">
-          <h2>About our director</h2>
+          <h2>ABOUT OUR DIRECTOR</h2>
           <img src="img/director.webp" alt="" />
           <p>
             Exceptional Tuition and Resumes was proudly founded by award winning
