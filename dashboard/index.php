@@ -45,7 +45,7 @@
         <p class="with-gap">
           We also offer nursing courses for international students and internationally trained nurses who wish to become nurses in Australia .
         </p>
-        <a href="./about-writing-services.php">
+        <a href="/nursing/study-nursing-in-australia.php">
           <button class="btn">STUDY NURSING IN AUSTRALIA</button>
         </a>
       </div>
@@ -94,8 +94,8 @@
               <a href="/nursing/interview-training.php">
                 <button class="btn">Interview Training</button>
               </a>
-              <a href="/nursing/linkedin-profiles.php">
-                <button class="btn">LinkedIn Profiles</button>
+              <a href="/nursing/study-nursing-in-australia.php">
+                <button class="btn">Study Nursing in Australia</button>
               </a>
             </div>
 

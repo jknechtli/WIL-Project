@@ -18,7 +18,7 @@
         </form>
         <?php include "./shared/create-search.php" ?>
       </div>
-      <?php include '../shared/enquiries.html'; ?>
+      <?php include './shared/enquiries.html'; ?>
     </div>
     <div class="footer">
       <?php include './shared/footer.html'; ?>

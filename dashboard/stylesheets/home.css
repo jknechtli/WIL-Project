@@ -78,7 +78,6 @@
 }
 
 .form-section .form-container form {
-  /* width: 32rem; */
   width: 50%;
   display: flex;
   flex-flow: column;
@@ -143,10 +142,9 @@ div.divider {
 
 img.person {
   height: 45%;
-  /* z-index: 20; */
   z-index: -1 !important;
   bottom: -3rem;
-  left: 1rem;
+  left: -3rem;
   position: absolute;
 }
 
@@ -167,7 +165,6 @@ img.person {
 
 .degrees .vertical-btn-group {
   z-index: 30;
-  /* width: 10rem; */
   left: 22rem;
   top: -7rem;
   box-shadow: 0px 6px 27px 0px rgba(0, 0, 0, 0.3);
@@ -196,15 +193,6 @@ img.person {
   border-radius: 10px;
 }
 
-/* nursing  : 03b19d */
-/* graduate : 1ba2ff */
-/* teacher  : 5cd660 */
-
-/* .btn-container {
-  width: fit-content;
-  position: relative;
-} */
-
 .degrees .degree-summary * {
   z-index: 21;
 }
@@ -213,6 +201,7 @@ img.person {
   height: fit-content;
   min-height: 24rem;
   padding-bottom: 2rem;
+  position: relative;
 }
 .degrees .nurse {
   background-color: #04b09d;
@@ -272,11 +261,7 @@ img.person {
   background-image: url("/dashboard/img/GRADUATES.webp");
   width: 100%;
   height: 233px;
-  /* background-size: 100% 100%; */
-  /* padding-top: 8rem;
-  background-size: cover; */
   background-position: center;
-  /* background-repeat: no-repeat; */
 }
 
 .image-panel h1 {
@@ -295,19 +280,15 @@ img.person {
 
 .contents h1 {
   letter-spacing: 0.06em;
-  /* font-family: montserrat, sans-serif; */
   font-size: 45px;
   line-height: 1em;
   text-align: center;
   font-weight: bold;
-  /* color: rgb(33, 33, 33); */
 }
 
 .contents h2 {
-  /* font-family: "open sans", sans-serif; */
   font-size: 17px;
   font-weight: 400;
-  /* color: rgb(33, 33, 33); */
   line-height: 1.4em;
   letter-spacing: 0.45em;
   text-align: center;
@@ -344,8 +325,8 @@ img.person {
 }
 
 .nurse .paperclip {
-  right: calc(20px + 3rem);
-  top: 5rem;
+  right: calc(20px + -4rem);
+  top: 0;
 }
 
 .graduate .paperclip {
@@ -361,6 +342,9 @@ img.person {
 .graduate img.person {
   right: 0;
   left: unset;
+}
+.graduate img.person {
+  right: -70px;
 }
 
 .footer .links {
@@ -420,6 +404,7 @@ img.person {
   height: 100%;
   padding: 1rem;
   color: #94989a;
+  height: fit-content;
 }
 .footer .gov-links .commitment a:hover,
 .footer .gov-links .commitment a {
@@ -463,6 +448,10 @@ img.person {
   }
   .degrees .graduate .vertical-btn-group {
     top: -3rem;
+  }
+  .degrees .nurse img.person {
+    right: 0;
+    left: unset;
   }
 }
 
@@ -518,8 +507,17 @@ img.person {
   .form-container img {
     display: none;
   }
+
+  .commitment {
+    width: 90%;
+  }
 }
 
+@media (max-width: 535px) {
+  img.person {
+    display: none !important;
+  }
+}
 @media (max-width: 1500px) {
   .panel.text {
     padding: 0 1rem;

@@ -66,7 +66,7 @@
         <p>
           <img class="logo" src="/img/icons/tiktok-2.png" alt="">
           <span class="bold">TikTok:</span>
-          <a href="exceptionalstudyau">
+          <a href="https://www.tiktok.com/@exceptionalstudyau">
             exceptionalstudyau
           </a>
         </p>
