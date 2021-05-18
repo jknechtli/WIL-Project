@@ -202,6 +202,10 @@ body {
   display: none;
 }
 
+.menu-btn-container {
+  position: relative;
+}
+
 #out-of-menu {
   position: fixed;
   background-color: white;
@@ -216,6 +220,16 @@ button.btn.menu-btn {
   height: fit-content;
   background: transparent;
   border-color: transparent;
+}
+
+#close-btn:hover {
+  color: rgb(62, 204, 181);
+}
+#close-btn {
+  left: 0;
+  display: none;
+  position: absolute;
+  background-color: var(--bg-grey);
 }
 
 /*#endregion Header*/
