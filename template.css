@@ -442,6 +442,7 @@ p {
 .footer h1 {
   font-size: 19px;
   color: rgb(128, 197, 255);
+  width: calc(100% - 13rem);
 }
 
 .footer .copyright {

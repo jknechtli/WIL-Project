@@ -261,29 +261,27 @@
       <div class="links">
         <h1>LINKS</h1>
         <div class="gov-links">
-          <a href="">Northern Territory Health
-            <?php include '../shared/little-arrow.html'; ?>
-          </a>
-          <a href="">South Australia Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="https://health.nt.gov.au/">Northern Territory Health <?php include '../shared/little-arrow.html'; ?> </a>
+          <a href="https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/home/home">South Australia Health<?php include '../shared/little-arrow.html'; ?></a>
           <a href="https://www.health.qld.gov.au/employment">Queensland Health<?php include '../shared/little-arrow.html'; ?></a>
-          <a href="">Western Australia Health<?php include '../shared/little-arrow.html'; ?></a>
-          <a href="">New South Wales Health<?php include '../shared/little-arrow.html'; ?></a>
-          <a href="">Tasmania Health<?php include '../shared/little-arrow.html'; ?></a>
-          <a href="">Victoria Health<?php include '../shared/little-arrow.html'; ?></a>
-          <a class="AHPRAF" href="">AHPRA (Austalian Health Practitioners Regulation Agency)<?php include '../shared/little-arrow.html'; ?></a>
-          <div class="commitment">
-            <img class="logo" src="/img/logo.webp" alt="Logo" />
-            <p>
-              Exceptional Study Australia is committed to helping every international nurse, university graduate or teacher to achieve exceptional results professionally when applying for employment
-            </p>
-            <div class="socials">
-              <a href="https://twitter.com/ExceptionalAust">
-                <img class="social-logo" src="/img/icons/twitter-3.png" alt="Logo" />
-              </a>
-              <a href="https://www.facebook.com/exceptionalstudyaustralia/">
-                <img class="social-logo" src="/img/icons/facebook-3.png" alt="Logo" />
-              </a>
-            </div>
+          <a href="https://ww2.health.wa.gov.au/">Western Australia Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="https://www.health.nsw.gov.au/">New South Wales Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="https://www.health.tas.gov.au/">Tasmania Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a href="https://www.dhhs.vic.gov.au/">Victoria Health<?php include '../shared/little-arrow.html'; ?></a>
+          <a class="AHPRAF" href="https://www.ahpra.gov.au/">AHPRA (Austalian Health Practitioners Regulation Agency)<?php include '../shared/little-arrow.html'; ?></a>
+        </div>
+        <div class="commitment">
+          <img class="logo" src="/img/logo.webp" alt="Logo" />
+          <p>
+            Exceptional Study Australia is committed to helping every international nurse, university graduate or teacher to achieve exceptional results professionally when applying for employment
+          </p>
+          <div class="socials">
+            <a href="https://twitter.com/ExceptionalAust">
+              <img class="social-logo" src="/img/icons/twitter-3.png" alt="Logo" />
+            </a>
+            <a href="https://www.facebook.com/exceptionalstudyaustralia/">
+              <img class="social-logo" src="/img/icons/facebook-3.png" alt="Logo" />
+            </a>
           </div>
         </div>
       </div>
@@ -301,15 +299,16 @@ if (isset($_POST['submit'])) {
 
   // $headers = "From:" . $from;
   // $headers2 = "From:" . $to;
-      $to      = 'jknechtli@hotmail.com';
-      $subject = 'Email Test';
-      $message = 'Hello World';
-      $headers = 'From: contactusform@exceptionalstudyaustralia.com' . "\r\n" .
-          'CC: info@theirdomain.com';
-          'Reply-To: info@yourdomain.com' . "\r\n" .
-          'X-Mailer: PHP/' . phpversion();
 
-      mail($to, $subject, $message, $headers);
+  $to      = 'jknechtli@hotmail.com';
+  $subject = 'Email Test';
+  $message = 'Hello World';
+  $headers = 'From: contactusform@exceptionalstudyaustralia.com' . "\r\n" .
+    'CC: info@theirdomain.com';
+  'Reply-To: info@yourdomain.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+  mail($to, $subject, $message, $headers);
 }
 ?>
 

@@ -354,12 +354,16 @@ img.person {
   padding: 3rem 18%;
   position: relative;
   background: rgb(35, 42, 43);
+  display: flex;
+  flex-flow: column wrap;
+  height: 19rem;
 }
 
 .footer .gov-links {
   display: flex;
   flex-flow: column wrap;
   height: 250px;
+  width: calc(100% - 13rem);
 }
 
 .footer .gov-links a {
@@ -501,8 +505,9 @@ img.person {
     padding-left: 0;
   }
 
+  .footer h1,
   .footer .gov-links {
-    height: fit-content;
+    display: none;
   }
   .footer .gov-links a {
     width: 100%;
@@ -510,7 +515,14 @@ img.person {
   .form-container img {
     display: none;
   }
-
+  .footer .gov-links a.AHPRAF {
+    height: unset;
+  }
+  .footer .gov-links a.AHPRAF svg {
+    right: unset;
+    top: unset;
+    position: unset;
+  }
   .commitment {
     width: 90%;
   }
