@@ -1,0 +1,542 @@
+.home-page .contents {
+  margin: 0;
+  width: 100%;
+}
+
+.panel {
+  width: 100%;
+  height: 496px;
+  color: #ffffff;
+}
+.panel.degrees {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 496px;
+  height: fit-content;
+}
+.panel.text {
+  padding: 0 15%;
+  width: 70%;
+  text-align: center;
+  padding-bottom: 2rem;
+  height: fit-content;
+}
+.panel.text h1 {
+  padding: 0 10%;
+  margin-bottom: 16px;
+}
+.panel.text ul {
+  list-style-type: none;
+  padding: 0;
+}
+.panel.text .btn {
+  border-radius: 10px;
+  background: none;
+  color: rgb(128, 197, 255);
+  border: 1px solid rgb(128, 197, 255);
+  width: fit-content;
+}
+.panel.text .btn:hover {
+  transition: all 0.2s ease-out;
+  background: rgb(128, 197, 255);
+  color: #ffffff;
+}
+.panel.text .btn {
+  transition: all 0.2s ease-out;
+}
+.panel.text p:nth-child(3) {
+  margin-top: 16px;
+}
+
+.form-section {
+  background-image: url("/img/form-bg.webp");
+  height: fit-content;
+}
+.form-section .info-banner {
+  display: flex;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+  background-color: rgba(52, 64, 66, 0.73);
+}
+.form-section .info-banner > div {
+  flex-grow: 1;
+  max-width: 33%;
+}
+.form-section .info-banner > div:first-child {
+  margin-top: 1rem;
+}
+.form-section .form-container {
+  width: 80%;
+  padding: 3rem 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-section .form-container img {
+  margin: 3rem;
+  border-radius: 5px;
+  box-shadow: 8.09px 3.95px 44px 0px rgba(0, 0, 0, 0.5);
+  width: 524px;
+  height: 393px;
+}
+
+.form-section .form-container form {
+  width: 50%;
+  display: flex;
+  flex-flow: column;
+  color: #000;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 8.09px 3.95px 44px 0px rgba(0, 0, 0, 0.5);
+  padding: 3rem 2rem;
+}
+
+.form-section .form-container form label {
+  font: normal normal normal 14px/1.4em avenir-lt-w01_35-light1475496,
+    sans-serif;
+  color: rgb(57, 57, 57);
+  word-break: break-word;
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 12px;
+  padding: 0 20px 0 2px;
+}
+.form-section .form-container form input.text-input {
+  border-width: 1px;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(163, 217, 246);
+  padding: 3px 3px 3px 16px;
+  border-radius: 4px;
+  height: 44px;
+  margin-bottom: 16px;
+}
+.form-section .form-container form .input-holder {
+  display: flex;
+}
+.form-section .form-container form .input-holder label {
+  margin-top: 3px;
+}
+
+div.divider {
+  width: 61px;
+  transform-origin: center 0.5px;
+  margin-left: calc(50% - 30.5px);
+  border-top: 1px solid rgb(128, 197, 255);
+}
+
+.degree {
+  flex-grow: 1;
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+}
+
+.degrees > div {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  position: relative;
+  height: 28rem;
+  margin-bottom: 3rem;
+}
+
+img.person {
+  height: 45%;
+  z-index: -1 !important;
+  bottom: -3rem;
+  left: -3rem;
+  position: absolute;
+}
+
+.panel.degrees button.btn {
+  z-index: 6;
+  height: 4rem;
+  width: 10rem;
+}
+
+.degrees .menu-close {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 99;
+  display: none;
+}
+
+.degrees .vertical-btn-group {
+  z-index: 30;
+  left: 22rem;
+  top: -7rem;
+  box-shadow: 0px 6px 27px 0px rgba(0, 0, 0, 0.3);
+}
+.degrees .graduate .vertical-btn-group {
+  top: 1rem;
+}
+
+.degrees .vertical-btn-group button.btn {
+  width: 14rem;
+}
+
+.popup-container button svg {
+  transform: rotate(90deg);
+  width: 14px;
+  height: 40px;
+}
+.popup-container button.btn {
+  border-color: #fff;
+  color: #fff;
+  fill: #fff;
+}
+.popup-container > a > button.btn,
+.popup-container > button.btn {
+  box-shadow: 0px 6px 27px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.degrees .degree-summary * {
+  z-index: 21;
+}
+
+.degrees .nurse .degree-summary {
+  height: fit-content;
+  min-height: 24rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+.degrees .nurse {
+  background-color: #04b09d;
+  padding-right: 3rem;
+  height: fit-content;
+}
+@media (min-width: 901px) {
+  .degrees .graduate .degree-summary {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+.degrees .graduate {
+  width: calc(calc(100% / 3) - 6rem);
+}
+.degrees .teacher {
+  background-color: #5cd660;
+  padding-left: 3rem;
+}
+
+.degrees .graduate,
+.degrees .teacher {
+  height: auto;
+}
+.nurse button {
+  background-color: #03b19d !important;
+}
+.graduate button {
+  background-color: #1ba2ff !important;
+}
+.teacher button {
+  background-color: #5cd660 !important;
+}
+
+.graduate > img.degree {
+  width: calc(100% + 7rem);
+  height: 100%;
+  left: -4rem;
+}
+
+.degrees .popup-container {
+  position: absolute;
+  padding-top: 15rem;
+  padding-left: 12rem;
+  z-index: 30;
+  bottom: -2rem;
+}
+
+.panel.degrees > div:nth-child(2) .popup-container {
+  z-index: 29;
+}
+.panel.degrees > div:nth-child(3) .popup-container {
+  z-index: 28;
+}
+
+.image-panel {
+  background-image: url("/img/GRADUATES.webp");
+  width: 100%;
+  height: 233px;
+  background-position: center;
+}
+
+.image-panel h1 {
+  width: fit-content;
+  margin-left: 11rem;
+  margin-top: 5rem;
+}
+.image-panel h2 {
+  width: fit-content;
+  margin-left: 21rem;
+}
+.image-panel .btn-group {
+  width: fit-content;
+  margin-left: 23rem;
+}
+
+.contents h1 {
+  letter-spacing: 0.06em;
+  font-size: 45px;
+  line-height: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contents h2 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0.45em;
+  text-align: center;
+}
+
+.degrees .degree-summary {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 8;
+  margin: 4rem;
+  margin-bottom: 0;
+  padding: 0 3rem;
+  min-height: 24rem;
+}
+
+.degrees .degree-summary li {
+  line-height: normal;
+}
+
+.degrees .degree-summary h2 {
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.nurse .paperclip,
+.teacher .paperclip {
+  z-index: 10;
+  height: 75px;
+  position: absolute;
+  right: 20px;
+  top: 7rem;
+}
+
+.nurse .paperclip {
+  right: calc(20px + -4rem);
+  top: 0;
+}
+
+.graduate .paperclip {
+  z-index: 10;
+  height: 70px;
+  position: absolute;
+  left: -9px;
+  top: 3rem;
+  transform: scaleX(-1);
+}
+
+.teacher img.person,
+.graduate img.person {
+  right: 0;
+  left: unset;
+}
+.graduate img.person {
+  right: -70px;
+}
+
+.footer .links {
+  padding: 3rem 18%;
+  position: relative;
+  background: rgb(35, 42, 43);
+  display: flex;
+  flex-flow: column wrap;
+  height: 19rem;
+}
+
+.footer .gov-links {
+  display: flex;
+  flex-flow: column wrap;
+  height: 250px;
+  width: calc(100% - 13rem);
+}
+
+.footer .gov-links a {
+  width: 9rem;
+  padding: 1rem;
+  border-left: #ffffff 1px solid;
+  margin: 0.2rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer .gov-links a.AHPRAF {
+  flex-grow: 1;
+  height: 36px;
+  margin-bottom: 12rem;
+  position: relative;
+}
+
+.footer .gov-links a.AHPRAF svg {
+  right: 0;
+  top: 28px;
+  position: absolute;
+}
+
+.footer .gov-links a:hover {
+  background: #7a7979;
+  color: #80c5ff;
+}
+
+.footer .gov-links a svg {
+  transition: inherit;
+  fill: #ffffff;
+  width: 9px;
+  height: 9px;
+  margin: 0px 0px 0px 4px;
+}
+
+.with-gap {
+  margin: 1.5rem 0;
+}
+
+.commitment {
+  background-color: #252b34;
+  width: 13rem;
+  height: 100%;
+  padding: 1rem;
+  color: #94989a;
+  height: fit-content;
+}
+.footer .gov-links .commitment a:hover,
+.footer .gov-links .commitment a {
+  width: unset;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  color: transparent;
+  background-color: transparent;
+}
+.commitment .logo {
+  width: 100%;
+}
+.commitment .socials {
+  width: fit-content;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  border-top: solid 1px rgba(255, 255, 255, 0.3);
+}
+.commitment a:first-child {
+  margin-right: 0.5rem !important;
+}
+.commitment .social-logo {
+  width: 25px;
+}
+@media (max-width: 900px) {
+  .form-section .info-banner {
+    flex-flow: column;
+  }
+  .form-section .info-banner > div {
+    width: 100%;
+    max-width: unset;
+  }
+  .degrees .degree-summary {
+    margin: 2rem;
+    margin-bottom: 0;
+  }
+  .degrees .vertical-btn-group {
+    left: 12rem;
+    top: -11rem;
+  }
+  .degrees .graduate .vertical-btn-group {
+    top: -3rem;
+  }
+  .degrees .nurse img.person {
+    right: 0;
+    left: unset;
+  }
+}
+
+@media (max-width: 1100px) {
+  .degrees > div {
+    padding-bottom: 5rem;
+    margin-bottom: 0rem;
+  }
+
+  .degrees .popup-container {
+    bottom: 1rem;
+    right: 10rem;
+  }
+
+  img.person {
+    bottom: 0rem;
+  }
+
+  .degrees .nurse .degree-summary {
+    padding-bottom: 0rem;
+  }
+  .degrees img.paperclip,
+  .degrees .graduate > img.degree {
+    display: none;
+  }
+
+  .form-section .form-container form {
+    width: 100%;
+  }
+
+  .degrees .graduate,
+  .degrees .nurse,
+  .degrees .teacher {
+    width: 100%;
+  }
+  .degrees .nurse {
+    padding-right: 0rem;
+    height: fit-content;
+  }
+  .degrees .graduate {
+    background-color: #1ba2ff;
+  }
+  .degrees .teacher {
+    padding-left: 0;
+  }
+
+  .footer h1,
+  .footer .gov-links {
+    display: none;
+  }
+  .footer .gov-links a {
+    width: 100%;
+  }
+  .form-container img {
+    display: none;
+  }
+  .footer .gov-links a.AHPRAF {
+    height: unset;
+  }
+  .footer .gov-links a.AHPRAF svg {
+    right: unset;
+    top: unset;
+    position: unset;
+  }
+  .commitment {
+    width: 90%;
+  }
+}
+
+@media (max-width: 535px) {
+  img.person {
+    display: none !important;
+  }
+}
+@media (max-width: 1500px) {
+  .panel.text {
+    padding: 0 1rem;
+    width: calc(100% - 2rem);
+    padding-bottom: 2rem;
+  }
+}
