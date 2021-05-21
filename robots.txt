@@ -1,0 +1,14 @@
+# exceptionalstudyaustralia.com/robots.txt
+
+User-agent: *
+Disallow: /img
+Disallow: /shared
+Disallow: /xampp
+Disallow: /.vscode
+Disallow: /applications.html
+Disallow: /template.html
+
+
+
+
+
