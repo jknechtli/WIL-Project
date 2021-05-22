@@ -2,6 +2,9 @@
 
 <head>
   <title>Selection criteria and suitability statements for graduates</title>
+  <meta name="description" content="At Exceptional Study Australia we can help you with preparing your selection criteria answers for graduate jobs,Selection criteria are the skills, experience, knowledge and/or attributes an employer considers essential or desirable for an advertised position, such as a graduate program.">
+  <meta name="keywords" content="graduate,GRADUATES,CRITERIA,SELECTION,SELECTION CRITERIA,Graduate Jobs,graduate program,RESUMES,SUITABILITY STATEMENTS,resume,SUITABILITY,STATEMENTS,At Exceptional Study Australia,Exceptional,Exceptional Study Australia,respond,attributes,addition,supplying,cover,letter,preparing,address,answers
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

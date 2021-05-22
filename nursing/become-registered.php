@@ -2,6 +2,9 @@
 
 <head>
   <title>Become a registered nurse (RN)</title>
+  <meta name="description" content="What is Registered Nurse in Australia?,Student Visa Requirements,How to apply for Registered Nurse,Study to become a Registered Nurse in Australia as an international student">
+  <meta name="keywords" content="REGISTERED,NURSING,IN AUSTRALIA,Nursing Resume,NURSE,Registered Nurse in Australia,Registered Nurse,In Australia Registered nurses,Nursing Students,Registered Nurses,requirements,Student,AUSTRALIA,Visa Requirements,Student Visa,Nursing and Midwifery,Student Health,registered nurses need,Visa,job,study,apply
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

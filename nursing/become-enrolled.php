@@ -2,6 +2,9 @@
 
 <head>
   <title>Become an enrolled nurse (EN) </title>
+  <meta name="description" content="What is an Enrolled Nurse?,How to apply for an enrolled nurse as an international student,Study to become an enrolled nurse in Australia as an international student,">
+  <meta name="keywords" content="in nursing,ENROLLED,NURSING,IN AUSTRALIA,Nursing Resume,enrolled nurse in Australia,ENROLLED NURSE,NURSE,be supervised,in order,in aged,Enrolled nurses,Nursing Care,Nursing Students,international,AUSTRALIA,international student,student,Registered Nurse,Nursing and Midwifery,Enrolled nurses provide,apply
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

@@ -2,6 +2,9 @@
 
 <head>
   <title>Interview training for nurses</title>
+  <meta name="description" content="At Exceptional Study Australia we offer one on one interview training for nurses that have achieved an interview in a hospital, nursing agency or other healthcare organisation. Our one off session will last normally around 1.5 hours and can be conducted from the comfort of your home online">
+  <meta name="keywords" content="INTERVIEW,NURSING,INTERVIEW TRAINING,TRAINING,Nursing Resume,nurse,NURSES,RESUMES,Nursing Agency,Interview Questions,Job Interview,Exceptional,cover,Exceptional Study Australia,achieved,hospital,healthcare,organisation,session,normally,hours,recruiter,conducted
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

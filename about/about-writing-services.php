@@ -2,6 +2,9 @@
 
 <head>
   <title>Resume writing services</title>
+  <meta name="description" content="Exceptional Study Australia can help you in creating new resumes, updating existing resumes, writing professional cover letters, creating responses to selection criteria, writing suitability statements or developing an effective LinkedIn profile to help you promote yourself to prospective employers.">
+  <meta name="keywords" content="WRITING,Writing Service,Writing Services,RESUME WRITING SERVICES,Resume Writing,RESUME,IN AUSTRALIA,Professional Resume Writing,in nursing,in order
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

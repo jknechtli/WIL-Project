@@ -2,6 +2,9 @@
 
 <head>
   <title>FAQ</title>
+  <meta name="description" content="About resume writing,What are the benefits of a professionally written resume?,Why choose Exceptional Tuition and Resumes?,What is LinkedIn?,How can you use LinkedIn to Find a Job?,What can you include in a LinkedIn profile?,How can jobseekers benefit from having a LinkedIn profile?">
+  <meta name="keywords" content="FAQ,LinkedIn Profile,LinkedIn,Exceptional,job,resume,profile,Professional Profile,Resume Writing,Professional Resume
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

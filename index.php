@@ -1,7 +1,14 @@
 <html lang="en-AU">
 
 <head>
-  <title>Home</title>
+  <title>Exceptional Study Australia</title>
+  <meta name="description" content="Exceptional Study Australia is an educational agency which provides help with resume, cover letters, LinkedIn profiles etc.">
+  <meta name="keywords" content="advertised,agency,answers,application,applications,applying,assist,assistance,assistant,australia,awards,blog,brisbane,cairns,close,coast,college,contact,courses,
+								cover,criteria,degrees,director,education,educators,effective,email,employment,enrol,enrolled,exceptional,exceptionalstudyaustralia,experienced,following,future,gmail,
+								gold,graduate,graduates,health,highly,home,international,internationally,interview,jobs,jobseekers,leaders,letters,linkedin,links,media,melbourne,nurse,nurses,
+								nursing,offer,owned,perth,phone,practitioners,process,professional,professionals,profiles,programs,prospective,proud,register,registered,resume,resumes,school,
+								selection,service,services,south,specialises,specialising,statements,students,study,suitability,sunshine,sydney,targeted,teacher,teachers,team,time,trained,trainers,
+								training,tutors,university,various,wish,work,writing">
   <?php include './shared/head.html'; ?>
   <link rel="stylesheet" href="/stylesheets/home.css" />
 </head>

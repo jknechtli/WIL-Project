@@ -2,6 +2,9 @@
 
 <head>
   <title>Interview training for graduates</title>
+  <meta name="description" content="At Exceptional Study Australia we offer one on one interview training for graduate students that have achieved an interview in any business with any position. Our one off session will last normally around 1.5 hours and can be conducted from the comfort of your home online.">
+  <meta name="keywords" content="graduate,GRADUATES,INTERVIEW,TRAINING,INTERVIEW TRAINING,graduate students,RESUMES,Interview Questions,Job Interview,Exceptional,cover,Exceptional Study Australia,applied,achieved,business,session,normally,hours,conducted,comfort,human,online,Skype
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

@@ -2,6 +2,9 @@
 
 <head>
   <title>About exceptional study australia</title>
+  <meta name="description" content="about the mission that is to help all university graduates, teachers and international nurses to develop highly professional resumes and employment applications.">
+  <meta name="keywords" content="EXCEPTIONAL,EXCEPTIONAL STUDY,EXCEPTIONAL STUDY AUSTRALIA,AUSTRALIA,STUDY,At Exceptional Study Australia,exceptional customer,Exceptional Service,in Australia,Exceptional Customer Service
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

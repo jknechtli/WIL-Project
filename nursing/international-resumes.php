@@ -2,6 +2,9 @@
 
 <head>
   <title>Resume services for international nurses</title>
+  <meta name="description" content="PROFESSIONAL RESUMES AND COVER LETTERS FOR NURSES,AHPRA (Australia Health Practitioner Regulation Agency),SELECTION CRITERIA AND SUITABILITY STATEMENTS FOR NURSES,LINKEDIN PROFILES FOR NURSES ">
+  <meta name="keywords" content="RESUME,RESUME SERVICES,NURSING RESUMES,NURSING,RESUMES,INTERNATIONAL,Professional Resume,nurses in Australia,INTERNATIONAL NURSES,nurse
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

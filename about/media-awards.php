@@ -2,6 +2,9 @@
 
 <head>
   <title>Media awards</title>
+  <meta name="description" content="For our media and awards activities please LIKE Exceptional Study Australia on Facebook or FOLLOW Exceptional Study Australia on LinkedIn or Instagram.">
+  <meta name="keywords" content="MEDIA,MEDIA AWARDS,AWARDS,Social Media,Exceptional,Facebook,LinkedIn,Instagram,Exceptional Study Australia
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

@@ -2,6 +2,9 @@
 
 <head>
   <title>Become an assistant in nursing (AIN)</title>
+  <meta name="description" content="What is an Assistant in Nursing in Australia?,How to apply for an AIN job,Study to become an assistant in nursing in Australia as an international student,Tasks and duties">
+  <meta name="keywords" content="IN NURSING,NURSING,ASSISTANT IN NURSING,Nursing in Australia,ASSISTANT,IN AUSTRALIA,Nursing Resume,AIN,Nursing Homes,Nursing Care,in Health Assistance,Nursing and Midwifery,Certificate III in Health Assistance,AUSTRALIA,job,Study,apply,international,student,Salary,Exceptional,international students
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

@@ -2,6 +2,9 @@
 
 <head>
   <title>Teachers resumes</title>
+  <meta name="description" content="Being a teacher in Australia is a highly rewarding career choice as there is always a high demand for high quality, well qualified teaching professionals around the country. However, to achieve a permanent education or relief teaching role it is also a highly competitive industry for both new education graduates and experienced teachers applying for employment. At Exceptional Study Australia we offer a team of existing and experienced teachers and recruiters who specialise in writing education industry based resumes and employment applications. ">
+  <meta name="keywords" content="TEACHER,RESUMES,TEACHERS,TEACHERS RESUMES,experienced teachers,Teachers Educators,School Teachers,resume writers,Exceptional,Managers,LinkedIn,At Exceptional Study Australia,Exceptional Study Australia,in Australia,we offer,writing,based,applications,specialise,targeted,supporting,existing,certificate,graduates
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

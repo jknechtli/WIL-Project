@@ -2,6 +2,8 @@
 
 <head>
   <title>Contact Us</title>
+  <meta name="description" content="Thank you very much for your interest in Exceptional Study Australia. If you would like to organise any resume writing with us or would like any more information about what we do, please feel free to contact us via any of following methods:">
+  <meta name="keywords" content="CONTACT US,Contact,Exceptional,Media,Social Media,Connect,TikTok,Youtube,LinkedIn,Twitter">
   <?php include '../shared/head.html'; ?>
 </head>
 

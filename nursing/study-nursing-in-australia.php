@@ -2,6 +2,9 @@
 
 <head>
   <title>Study Nursing in Australia</title>
+  <meta name="description" content="study nursing in Australia,Skilled Occupations List (SOL), Consolidated Sponsored Occupations List (CSOL),Available Nursing Courses,Diploma of Nursing,Bachelor of Nursing,Master of Nursing,The Internationally Qualified Nurse (IQN) Program ,What are the typical entry requirements for Nursing courses in Australia? ">
+  <meta name="keywords" content="in Nursing,NURSING,IN AUSTRALIA,study in Australia,NURSING IN AUSTRALIA,STUDY NURSING IN AUSTRALIA,AUSTRALIA,STUDY NURSING,course in Australia,Nurse in Australia,STUDY,Nursing Resume,in healthcare,Nursing Courses,nursing course,Australian Nursing,Nursing career,Nursing occupations,Nursing degree,popular Nursing,Lifestyle Australia,Nursing Course Length,Nursing and Midwifery,course,Courses
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

@@ -1,7 +1,10 @@
 <html lang="en-AU">
 
 <head>
-  <title>Blog</title>
+  <title>Exceptional Study Australia Blog</title>
+  <meta name="description" content="Articles for university graduates,Articles for international nursesArticles for teachers">
+  <meta name="keywords" content="Articles,Exceptional,graduate,in Nursing,teachers,graduates,Facebook,international,university,graduate in Australia
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

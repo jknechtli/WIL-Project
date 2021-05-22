@@ -1,6 +1,9 @@
 <html lang="en-AU">
   <head>
     <title>About our director</title>
+	<meta name="description" content="Exceptional Tuition and Resumes was proudly founded by award winning Gold Coast entrepreneur, academic, HR professional and careers speaker, Monique Jeremiah in 2010. As a relationship and results driven professional with an undeniable passion for education and employment, Monique started the company in order to help university students and jobseekers to achieve a competitive advantage in the employment market. ">
+  <meta name="keywords" content="DIRECTOR,Exceptional,LinkedIn,Exceptional Tuition,employment,family,company,need,recognised,professionals
+">
     <?php include '../shared/head.html';?>
   </head>
   <body>

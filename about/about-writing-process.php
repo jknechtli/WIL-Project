@@ -2,6 +2,9 @@
 
 <head>
   <title>Resume writing process</title>
+  <meta name="description" content="Our process of providing perfect service, What includes in our resume service and Terms and conditions">
+  <meta name="keywords" content="Process,in writing,writing,Resume writing process,Resume Writing,resume,in order,Writing Services,Resume Service,Resume Services
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

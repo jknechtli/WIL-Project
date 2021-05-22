@@ -2,6 +2,9 @@
 
 <head>
   <title>LinkedIn profiles for graduates</title>
+  <meta name="description" content="Exceptional Study Australia provides a professional team to complete LinkedIn profile writing services. Including but not limited to writing personal profiled, career goals, work experience and any awards in your life. Each professional writer of our team plays a different role. We provide a keyword-optimized profile service. Our goal is to develop a comprehensive profile for our jobseekers, achieve a higher ranking on the LinkedIn platform, differentiate our customers from our competitors, and increase our jobseekers’ overall visibility to recruiters and potential employers online.">
+  <meta name="keywords" content="graduate,GRADUATES,LINKEDIN,LinkedIn Profile,profile,LINKEDIN PROFILES,PROFILES,RESUMES,Exceptional,Exceptional Study Australia
+">
   <?php include '../shared/head.html'; ?>
 </head>
 

@@ -2,6 +2,8 @@
 
 <head>
   <title>Graduates Resumes</title>
+  <meta name="description" content="graduate resumes for Business graduates,Marketing graduates,Accounting graduates,Commerce graduates,Law graduates,Building and construction graduates,Engineering and architecture graduates,Medicine graduates,Dentistry graduates,Pharmacy graduates,Psychology graduates,Social work graduates,Counselling graduates">
+  <meta name="keywords" content="Business graduates,Marketing graduates,Accounting graduates,Commerce graduates,Law graduates,Building and construction graduates,Engineering and architecture graduates,Medicine graduates,Dentistry graduates,Pharmacy graduates,Psychology graduates,Social work graduates,Counselling graduates">
   <?php include '../shared/head.html'; ?>
 </head>
 
