@@ -12,7 +12,7 @@
         </div>
         <div class="description">
           <h2>ABOUT OUR DIRECTOR</h2>
-          <img src="img/director.webp" alt="" />
+          <img src="/img/director.webp" alt="" />
           <p>
             Exceptional Tuition and Resumes was proudly founded by award winning
             Gold Coast entrepreneur, academic, HR professional and careers

@@ -80,6 +80,10 @@
   height: 393px;
 }
 
+.form-section .form-container form  span.required {
+  color:red;
+}
+
 .form-section .form-container form {
   width: 50%;
   display: flex;
@@ -241,8 +245,9 @@ img.person {
 
 .graduate > img.degree {
   width: calc(100% + 7rem);
-  height: 100%;
+  height: calc(100% + 2px);
   left: -4rem;
+  margin-top: -1px;
 }
 
 .degrees .popup-container {
