@@ -18,7 +18,7 @@
       <div class="description">
         <h2>ABOUT EXCEPTIONAL STUDY AUSTRALIA</h2>
         <img src="/img/about-exceptional.webp" alt="">
-        <h3>OUR MISSION</h3>
+        <h3>Our Mission</h3>
         <p>
           Exceptional Study Australia is a high performance and community driven education and employment agency committed to helping all university graduates, teachers and international nurses to develop highly professional resumes and employment applications. We also are focused on carefully assisting internationally trained nurses and potential international students who wish to become future nurses in Australia to enrol in quality nursing courses and degrees in Australia in order to pursue their nursing career.
         </p>

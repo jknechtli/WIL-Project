@@ -236,13 +236,13 @@
         </div>
       </div>
 
-      <div class="form-container">
+      <div class="form-container" id="form">
         <img src="/img/form-img.webp" alt="graduate holding degree" />
-        <form action="" method="post">
+        <form action="http://www.exceptionalrealestate.com.au/#form" method="post">
           <h2>Contact Us</h2>
-          <label for="nameInput">Name</label>
+          <label for="nameInput">Name<span class="required">*</span></label>
           <input class="text-input" type="text" name="Name" id="nameInput" required maxlength="100" />
-          <label for="emailInput">Email</label>
+          <label for="emailInput">Email<span class="required">*</span></label>
           <input class="text-input" type="text" name="Email" id="emailInput" required maxlength="100" pattern="^.+@.+\.[a-zA-Z]{2,63}$" />
           <label for="occupationInput" required>Your occupation is...</label>
           <div class="input-holder">
@@ -257,7 +257,8 @@
             <input type="radio" name="Occupation" id="graduate" value="graduate" />
             <label for="graduate">Graduate</label>
           </div>
-          <label for="commentInput" required>Comments</label>
+          <br>
+          <label for="commentInput" required>Comments<span class="required">*</span></label>
           <input class="text-input" type="text" name="Comment" id="commentInput" />
           <button class="btn" type="submit">Submit</button>
         </form>
@@ -297,7 +298,8 @@
   </div>
 </body>
 <?php
-if (isset($_POST['submit'])) {
+echo "<script>console.log('Console Works')</script>";
+if (isset($_POST['Name']) && isset($_POST['Email']) && isset($_POST['Comment'])) {
   // $to = "exceptionalstudyaustralia@gmail.com"; // this is your Email address
   // $from = $_POST['Email']; // this is the sender's Email address
   // $first_name = $_POST['Name'];
@@ -307,17 +309,30 @@ if (isset($_POST['submit'])) {
   // $headers = "From:" . $from;
   // $headers2 = "From:" . $to;
 
-  $to      = 'jknechtli@hotmail.com';
-  $subject = 'Email Test';
-  $message = 'Hello World';
+
+
+
+
+  echo "<script>console.log('Email Sending')</script>";
+
+  $to      = 'joel.knechtli@griffithuni.edu.au';
+  $subject = 'Exceptional studies Australia [Contact Form]';
+  // $message = 'The contact from on ExceptionalStudiesAustralia.com.au was filled out by:\r\n' . ;
+  $message = 'Name: ' . $_POST['Name'] . '\nOccupation: ' . $_POST['Occupation'] . '\n\n\n' . $_POST['Name'] . " wrote: " . $_POST['Comment'];
   $headers = 'From: contactusform@exceptionalstudyaustralia.com' . "\r\n" .
-    'CC: info@theirdomain.com';
-  'Reply-To: info@yourdomain.com' . "\r\n" .
+    // 'CC: info@theirdomain.com'
+    // ;
+    // 'Reply-To: info@yourdomain.com' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-  mail($to, $subject, $message, $headers);
+  mail($to, $subject, $message);
+
+  echo "<script>console.log('Email Sent')</script>";
+} else {
+  echo '<script>console.log("Issue with form information requirements")</script>';
 }
 ?>
+
 
 <?php include './shared/script.html'; ?>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
