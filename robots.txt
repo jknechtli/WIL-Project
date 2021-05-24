@@ -7,7 +7,5 @@ Disallow: /shared/little-arrow.html
 Disallow: /shared/script.html
 Disallow: /xampp
 Disallow: /.vscode
-Disallow: /applications.html
-Disallow: /template.html
 
 Sitemap: sitemap.xml
