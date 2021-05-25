@@ -238,7 +238,7 @@
 
       <div class="form-container" id="form">
         <img src="/img/form-img.webp" alt="graduate holding degree" />
-        <form action="http://www.exceptionalrealestate.com.au/#form" method="post">
+        <form action="shared/email-code.php" method="post">
           <h2>Contact Us</h2>
           <label for="nameInput">Name<span class="required">*</span></label>
           <input class="text-input" type="text" name="Name" id="nameInput" required maxlength="100" />
@@ -259,7 +259,7 @@
           </div>
           <br>
           <label for="commentInput" required>Comments<span class="required">*</span></label>
-          <input class="text-input" type="text" name="Comment" id="commentInput" />
+          <input class="text-input" type="text" name="Comment" id="commentInput" required />
           <button class="btn" type="submit">Submit</button>
         </form>
         <!-- <php include './shared/form.php'; ?> -->
@@ -297,42 +297,6 @@
     </div>
   </div>
 </body>
-<?php
-echo "<script>console.log('Console Works')</script>";
-if (isset($_POST['Name']) && isset($_POST['Email']) && isset($_POST['Comment'])) {
-  // $to = "exceptionalstudyaustralia@gmail.com"; // this is your Email address
-  // $from = $_POST['Email']; // this is the sender's Email address
-  // $first_name = $_POST['Name'];
-  // $subject = "Form submission";
-  // $message = $first_name . " wrote the following: hi";
-
-  // $headers = "From:" . $from;
-  // $headers2 = "From:" . $to;
-
-
-
-
-
-  echo "<script>console.log('Email Sending')</script>";
-
-  $to      = 'joel.knechtli@griffithuni.edu.au';
-  $subject = 'Exceptional studies Australia [Contact Form]';
-  // $message = 'The contact from on ExceptionalStudiesAustralia.com.au was filled out by:\r\n' . ;
-  $message = 'Name: ' . $_POST['Name'] . '\nOccupation: ' . $_POST['Occupation'] . '\n\n\n' . $_POST['Name'] . " wrote: " . $_POST['Comment'];
-  $headers = 'From: contactusform@exceptionalstudyaustralia.com' . "\r\n" .
-    // 'CC: info@theirdomain.com'
-    // ;
-    // 'Reply-To: info@yourdomain.com' . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-
-  mail($to, $subject, $message);
-
-  echo "<script>console.log('Email Sent')</script>";
-} else {
-  echo '<script>console.log("Issue with form information requirements")</script>';
-}
-?>
-
 
 <?php include './shared/script.html'; ?>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
