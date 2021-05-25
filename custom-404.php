@@ -13,7 +13,6 @@
         <h1>404 PAGE NOT FOUND</h1>
       </div>
       <div class="description">
-        <!-- <h2>We could not find the page you were after.</h2> -->
         <img class="404-image" src="/img/404-img.webp" alt="">
         <p> While you're on the incorrect page, <br> you can visit our social media </p>
         <div class="socials contact-socials">

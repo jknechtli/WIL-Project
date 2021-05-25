@@ -18,7 +18,6 @@
       <div class="description">
         <h2>SELECTION CRITERIA AND SUITABILITY STATEMENTS FOR GRADUATES </h2>
         <img src="/img/selection-criteria.webp" alt="" />
-
         <p>
           As a university graduate you will often have to respond to selection criteria in addition to supplying your graduate resume and graduate cover letter.
         </p>
@@ -27,7 +26,6 @@
         </p>
         <p>
           Selection criteria are the skills, experience, knowledge and/or attributes an employer considers essential or desirable for an advertised position, such as a graduate program. To demonstrate equity and accountability, more and more employers are requiring applicants to address selection criteria in their applications. To do this, employers will use selection criteria to:
-
         </p>
         <ol>
           <li>Shortlist applicants – Only those who best meet the criteria will be interviewed.</li>

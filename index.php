@@ -18,7 +18,6 @@
     <?php include './shared/header.html'; ?>
     <div class="contents">
       <div class="image-panel panel">
-        <!-- <img src="/img/GRADUATES.webp" alt=""> -->
       </div>
 
       <div class="panel text">
@@ -105,7 +104,6 @@
                 <button class="btn">STUDY NURSING<br>IN AUSTRALIA</button>
               </a>
             </div>
-
           </div>
         </div>
         <div class="graduate">
@@ -168,7 +166,6 @@
                 <?php include './shared/arrow.html'; ?>
               </button>
             </a>
-
           </div>
         </div>
       </div>
@@ -262,7 +259,6 @@
           <input class="text-input" type="text" name="Comment" id="commentInput" required />
           <button class="btn" type="submit">Submit</button>
         </form>
-        <!-- <php include './shared/form.php'; ?> -->
       </div>
     </div>
     <div class="footer">
@@ -304,20 +300,17 @@
   var closeAll = function() {
     document.getElementById("nursing-menu").style.display = "none";
     document.getElementById("graduate-menu").style.display = "none";
-    // console.log("hit1")
   }
 
   $(window).click(closeAll);
 
-
   openNursingMenu = (mouseEvent) => {
-    // console.log("hit3")
     closeAll();
     mouseEvent.stopPropagation();
     document.getElementById("nursing-menu").style.display = "flex";
   };
+
   openGraduateMenu = (mouseEvent) => {
-    // console.log("hit4")
     closeAll();
     mouseEvent.stopPropagation();
     document.getElementById("graduate-menu").style.display = "flex";

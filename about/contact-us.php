@@ -25,9 +25,6 @@
         <ul>
           <li><span class="bold">Phone / Text:</span> 0447 840 939</li>
           <li><span class="bold">Email:</span> exceptionalstudyaustralia@gmail.com</li>
-          <!-- <li>
-            Office Hours: Monday – Friday 9am – 6pm / Saturday 9am - 3pm
-          </li> -->
         </ul>​
         <h3>Connect With Us on Social Media</h3>​
         <p>
