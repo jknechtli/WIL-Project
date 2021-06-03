@@ -263,10 +263,6 @@ button.btn.menu-btn {
   position: relative;
 }
 
-p.text-correction {
-  color: transparent;
-}
-
 :root {
   --bg-overlay-color: rgb(250, 250, 250);
   --font_8: normal normal normal 15px/1.4em "open sans", sans-serif;
@@ -637,11 +633,6 @@ p {
   .menu .btn-group > a > button {
     text-align: left;
     padding-left: 2rem;
-  }
-
-  .description img.media-image {
-    float: right;
-    margin-left: 2rem;
   }
 }
 
