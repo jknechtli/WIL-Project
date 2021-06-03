@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>SELECTION CRITERIA AND SUITABILITY STATEMENTS FOR GRADUATES </h2>
-        <img src="/img/selection-criteria.webp" alt="" />
+        <img src="/img/selection-criteria.webp" alt="crowd-of-graduates" />
         <p>
           As a university graduate you will often have to respond to selection criteria in addition to supplying your graduate resume and graduate cover letter.
         </p>

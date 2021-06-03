@@ -170,6 +170,7 @@ body {
   margin-top: 0.5rem;
 }
 
+.dropdown:active .vertical-btn-group,
 .dropdown:hover .vertical-btn-group {
   display: unset;
 }
@@ -426,6 +427,10 @@ p {
   margin-left: calc(50% - 206px);
 }
 
+p.text-correction {
+  color: transparent;
+}
+
 /*#region Footer*/
 
 .copyright {
@@ -439,10 +444,13 @@ p {
   position: relative;
 }
 
+.footer h2,
 .footer h1 {
   font-size: 19px;
   color: rgb(128, 197, 255);
   width: calc(100% - 13rem);
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
 }
 
 .footer .copyright {
@@ -636,9 +644,9 @@ p {
   }
 }
 
-@media (min-width: 1501) {
-  .menu > .btn-group > div,
-  .menu > .btn-group > a {
-    width: calc(100% / 6);
+@media (max-width: 732px) {
+  .description img.media-image {
+    float: right;
+    margin-left: unset;
   }
 }

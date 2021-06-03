@@ -16,7 +16,7 @@
         <h1>ABOUT</h1>
       </div>
       <div class="description">
-        <img src="/img/writing-process.webp" alt="">
+        <img src="/img/writing-process.webp" alt="woman-holding-books">
         <h3> Our Process </h3>
         <p> Step 1: Choose the service you require from Exceptional Study Australia </p>
         <p> Step 2: Send us an email including the following details: </p>

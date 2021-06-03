@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>RESUME SERVICES FOR INTERNATIONAL NURSES </h2>
-        <img src="/img/international-nurses.webp" alt="" />
+        <img src="/img/international-nurses.webp" alt="nurse-talking-to-patient" />
         <h3>PROFESSIONAL RESUMES AND COVER LETTERS FOR NURSES </h3>
         <p>
           At Exceptional Study Australia, we pride ourselves on being expert in assisting international nurses or international students who are studying to be nurses in Australia to write professional nursing resumes and cover letters for a variety of positions in the healthcare industry.

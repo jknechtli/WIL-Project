@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>INTERVIEW TRAINING FOR GRADUATES </h2>
-        <img src="/img/graduate-interview-training.webp" alt="" />
+        <img src="/img/graduate-interview-training.webp" alt="graduates-throwing-hats" />
         <p>
           At Exceptional Study Australia we offer one on one interview training for graduate students that have achieved an interview in any business with any position. Our one off session will last normally around 1.5 hours and can be conducted from the comfort of your home online. Using Skype, we can run a mock interview based on the job you have applied for to help you prepare from start to finish of your interview. As experienced recruiters we will take the role of an interviewer, recruiter or human resource manager, develop a set of interview questions and ask you to consider and respond to appropriate selection criteria or competencies. You will have asked a series of questions to demonstrate that your skills and abilities relate to standards or abilities your employer would be expected to ask you on the day of your actual interview. These questions may include behaviour-based questions and hypothetical questions. The purpose of the interview is to validate and build on the answers you have given in your written application. The questions we will ask in interviews will be based on the same criteria as the health care organization you are interviewing for.
         </p>

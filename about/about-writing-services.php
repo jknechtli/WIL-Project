@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>ABOUT OUR RESUME WRITING SERVICES</h2>
-        <img src="/img/writing-services.webp" alt="">
+        <img src="/img/writing-services.webp" alt="woman-on-laptop">
         <p>
           As a specialist employment agency Exceptional Study Australia can
           help you in creating new resumes, updating existing resumes, writing

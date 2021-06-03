@@ -23,7 +23,7 @@
         <p>
           Nurses are highly sought after internationally and especially in Australia. In recent years, Australia has declared that more nurses are requested because of a shortage nationwide. This means the chances of landing a job are very high after graduating.
         </p>
-        <img src="/img/nursing-linkedin-profile.webp" alt="" />
+        <img src="/img/nursing-linkedin-profile.webp" alt="nurse-talking-to-elderly-patients" />
         <p>
           ​Because of this high demand in Nursing, the Nurse Practitioner, Registered Nurse (Aged Care, and Medical Practice) occupations are almost always listed in government employment lists, including:
         </p>

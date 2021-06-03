@@ -2,11 +2,13 @@
   openMenu = (mouseEvent) => {
     document.getElementById("open-menu").style.display = "flex";
     document.getElementById("close-btn").style.display = "unset";
+    document.getElementById("menu").style.display = "none";
   };
 
   closedMenu = (mouseEvent) => {
     document.getElementById("open-menu").style.display = "none";
     document.getElementById("close-btn").style.display = "none";
+    document.getElementById("menu").style.display = "unset";
   };
 
   document.getElementById("menu").addEventListener("click", openMenu);

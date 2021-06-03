@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>LINKEDIN PROFILES FOR GRADUATES </h2>
-        <img src="/img/graduate-linkedin-profile.webp" alt="" />
+        <img src="/img/graduate-linkedin-profile.webp" alt="graduate" />
         <p>
           At Exceptional Study Australia we can develop your professional LinkedIn profile as graduate students. As the world’s most comprehensive professional network, LinkedIn features more than 200 million members from around the globe comprising of jobseekers, recruiters and businesses in all different industries. To a professional candidate, a properly decorated and written LinkedIn profile can help you create your brand and effectively position yourself for a professional position.
         </p>

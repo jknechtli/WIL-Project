@@ -21,10 +21,7 @@
       </div>
 
       <div class="panel text">
-        <h1>
-          Exceptional Study Australia for Exceptional International Nurses,
-          Graduates and Teachers
-        </h1>
+        <h1> Exceptional Study Australia for Exceptional International Nurses, Graduates and Teachers </h1>
         <div class="divider"></div>
         <p>
           Exceptional Study Australia is proud to be an Australian owned
@@ -35,8 +32,7 @@
           enrol in various nursing courses and degrees in Australia.
         </p>
         <p>
-          Exceptional Study Australia specialises in writing highly effective
-          and targeted：
+          Exceptional Study Australia specialises in writing highly effective and targeted：
         </p>
         <ul>
           <li>Resumes</li>
@@ -58,7 +54,7 @@
       <div class="panel degrees">
         <div class="nurse">
           <div class="degree-summary">
-            <img src="/img/paperclip.webp" class="paperclip " alt="" />
+            <img src="/img/paperclip.webp" class="paperclip " alt="paperclip" />
             <h2> RESUMES FOR INTERNATIONAL NURSES / NURSING COURSES </h2>
             <p>
               For international nurses who are applying for any advertised or non-advertised jobs we offer the following professional job application services:
@@ -70,15 +66,13 @@
               <li>Answers to selection criteria</li>
               <li>Suitability statements</li>
             </ul>
-            <p>
-              For international students who wish o]to study nursing we also offer assistance in becoming:
-            </p>
+            <p> For international students who wish o]to study nursing we also offer assistance in becoming: </p>
             <ul>
               <li>Assistant in nursing (AIN)</li>
               <li>Enrolled nurse (EN)</li>
               <li>Registered nurse (RN)</li>
             </ul>
-            <img src="/img/NURSE.png" class="person" alt="" />
+            <img src="/img/NURSE.png" class="person" alt="woman-nurse" />
           </div>
           <div class="popup-container">
             <button id="nursing-menu-btn" class="btn">
@@ -107,9 +101,9 @@
           </div>
         </div>
         <div class="graduate">
-          <img src="/img/GRADUATES-REC2.webp" class="degree " alt="" />
+          <img src="/img/GRADUATES-REC2.webp" class="degree " alt="background-image" />
           <div class="degree-summary">
-            <img src="/img/paperclip.webp" class="paperclip " alt="" />
+            <img src="/img/paperclip.webp" class="paperclip " alt="paperclip" />
             <h2>GRADUATE RESUMES</h2>
             <p>
               For university graduates who are applying for any advertised or non-advertised jobs or graduate programs we offer the following professional job application services:​
@@ -121,7 +115,7 @@
               <li>Answers to selection criteria</li>
               <li>Suitability statements</li>
             </ul>
-            <img src="/img/GRADUATE.png" class="person" alt="" />
+            <img src="/img/GRADUATE.png" class="person" alt="woman-graduate" />
           </div>
           <div class="popup-container">
             <button id="graduate-menu-btn" class="btn">
@@ -146,7 +140,7 @@
         </div>
         <div class="teacher">
           <div class="degree-summary">
-            <img src="/img/paperclip.webp" class="paperclip" alt="" />
+            <img src="/img/paperclip.webp" class="paperclip" alt="paperclip" />
             <h2> TEACHER RESUMES </h2>
             <p>
               For graduate teachers, education professionals and experienced leaders in education who are applying for any advertised or non-advertised jobs we offer the following professional job application services:​
@@ -158,7 +152,7 @@
               <li>Answers to selection criteria</li>
               <li>Suitability statements</li>
             </ul>
-            <img src="/img/TEACHER.png" class="person" alt="" />
+            <img src="/img/TEACHER.png" class="person" alt="woman-teacher" />
           </div>
           <div class="popup-container">
             <a href="/teachers/teacher-resumes.php">
@@ -234,7 +228,7 @@
       </div>
 
       <div class="form-container" id="form">
-        <img src="/img/form-img.webp" alt="graduate holding degree" />
+        <img src="/img/form-img.webp" alt="graduate-holding-degree" />
         <form action="shared/email-code.php" method="post">
           <h2>Contact Us</h2>
           <label for="nameInput">Name<span class="required">*</span></label>
@@ -263,7 +257,7 @@
     </div>
     <div class="footer">
       <div class="links">
-        <h1>LINKS</h1>
+        <h2>LINKS</h2>
         <div class="gov-links">
           <a href="https://health.nt.gov.au/">Northern Territory Health <?php include './shared/little-arrow.html'; ?> </a>
           <a href="https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/home/home">South Australia Health<?php include './shared/little-arrow.html'; ?></a>
@@ -281,10 +275,10 @@
           </p>
           <div class="socials">
             <a href="https://twitter.com/ExceptionalAust">
-              <img class="social-logo" src="/img/icons/twitter-3.png" alt="Logo" />
+              <img class="social-logo" src="/img/icons/twitter-3.png" alt="twitter-logo" />
             </a>
             <a href="https://www.facebook.com/exceptionalstudyaustralia/">
-              <img class="social-logo" src="/img/icons/facebook-3.png" alt="Logo" />
+              <img class="social-logo" src="/img/icons/facebook-3.png" alt="facebook-logo" />
             </a>
           </div>
         </div>

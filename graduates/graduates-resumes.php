@@ -16,7 +16,7 @@
       </div>
       <div class="description">
         <h2>GRADUATE RESUMES </h2>
-        <img src="/img/graduate-resumes.webp" alt="" />
+        <img src="/img/graduate-resumes.webp" alt="people-graduating" />
         <p>
           Being a new university graduate or RTO college graduate is an exciting yet daunting experience for many students as it is the start of a new life and a new career. Every year thousands of Australian and international students complete a certificate, diploma, advanced diploma, bachelor’s degree, master’s degree or PHD at university, TAFE or an RTO college with the hope of achieving their ideal career or first job. However, the truth is, it is getting more and more competitive to achieve a full-time, part-time or graduate program position either in Australia or overseas. Recruiters require more than just a qualification. Therefore, at Exceptional Study Australia we specialise in writing employment applications for new university graduates. Our team of resume writers are professionals in writing professional resumes to capture students in a detailed, honest and well written manner in order to showcase their education background, their skills, their employment experience and every other important attribute they bring as a new graduate.
         </p>
