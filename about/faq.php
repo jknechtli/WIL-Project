@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h3>About resume writing</h3>
-        <img src="/img/faq.webp" alt="person-on-laptop">
+        <img src="/img/faq.jpeg" alt="person-on-laptop">
         <p>
           ​What employers look for in a resume?
           Your resume is an essential promotional tool to help you apply for any graduate program, agency role, full-time job or other work project. Therefore it should always be honest, well detailed and capture you as a jobseeker in the most positive light. Font should be reasonably sized, easy to read, and have a normal size margin. Words should be highly targeted and specific to your profession. Only relevant information should also be included in your resume. Employers also appreciate an aesthetically appealing resume without all the gimmicks. A direct, straight to the point resume achieves best results always.​

@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>BECOME AN ENROLLED NURSE (EN) IN AUSTRALIA</h2>
-        <img class="left" src="/img/become-en-1.webp" alt="nurse-in-PPE" />
+        <img class="left" src="/img/become-en-1.jpeg" alt="nurse-in-PPE" />
         <h3> What is an Enrolled Nurse? </h3>
         <p>
           An enrolled nurse works under the direction and supervision of a registered nurse in order to provide health care to patients in any clinical setting. Enrolled nurses provide physical and emotional care to more complex duties such as giving medications. Enrolled nurse will often have a chance to work in different clinical specialities including medical, surgical, mental health, paediatrics, orthopaedics, rehabilitation, oncology, operating theatres, rural and remote, emergency and community health care settings. Also, they may be found in aged care settings.
@@ -36,7 +36,7 @@
           Enrolled nurses act as a helper and co-worker for registered nurses. They may directly or indirectly be supervised by registered nurses depending on their nature of the work and the clinical environment they are assigned. Enrolled nurses can also provide support to patients in aged care, welfare, communities and community events.
         </p>
         <h3> Job requirements </h3>
-        <img src="/img/become-en-2.webp" alt="nurse-on-computer" />
+        <img src="/img/become-en-2.jpeg" alt="nurse-on-computer" />
         <p>
           The minimum level of study required for an enrolled nurse in Australia is a Diploma of Nursing. It is currently open for people in society (not current students) who keep Certification III with relevant industry experience or a Certification IV or higher, too. Applicants should apply to the NMBA (Nursing and Midwifery Board of Australia) to work as an enrolled nurse in Australia. This certification should be renewed annually.
         </p>

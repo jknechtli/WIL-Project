@@ -49,7 +49,7 @@
 }
 
 .form-section {
-  background-image: url("/img/form-bg.webp");
+  background-image: url("/img/form-bg.jpeg");
   height: fit-content;
 }
 .form-section .info-banner {
@@ -266,7 +266,7 @@ img.person {
 }
 
 .image-panel {
-  background-image: url("/img/GRADUATES.webp");
+  background-image: url("/img/GRADUATES.png");
   width: 100%;
   height: 233px;
   background-position: center;

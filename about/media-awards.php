@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <p>For our media and awards activities please LIKE Exceptional Study Australia on Facebook or FOLLOW Exceptional Study Australia on LinkedIn or Instagram. </p>
-        <img class="media-image" src="/img/media-awards.webp" alt="social-media-on-screen">
+        <img class="media-image" src="/img/media-awards.jpeg" alt="social-media-on-screen">
         <p class="text-correction">.</p>
       </div>
       <?php include '../shared/enquiries.html'; ?>

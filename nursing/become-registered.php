@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>BECOME A REGISTERED NURSE (RN) IN AUSTRALIA</h2>
-        <img src="/img/become-rn.webp" alt="nurse-checking-sample" />
+        <img src="/img/become-rn.jpeg" alt="nurse-checking-sample" />
         <h3> What is Registered Nurse in Australia? </h3>
         <p>
           In Australia Registered nurses are in charge of primary health care in hospitals, aged care, community institutions and school settings. It is a job with a high level of expertise, responsibility and respect within the healthcare environment. Registered nurses are usually a character of a unit manager or team leader in a health care service team. Enrolled nurses and assistants in nursing often report to registered nurses when they are in training or are in need of supervision or support within their nursing role.

@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>BECOME AN ASSISTANT IN NURSING (AIN) IN AUSTRALIA</h2>
-        <img class="left" src="/img/become-ain.webp" alt="nurses-in-PPE" />
+        <img class="left" src="/img/become-ain.jpeg" alt="nurses-in-PPE" />
         <h3> What is an Assistant in Nursing in Australia? </h3>
         <p>
           Assistants in Nursing (aka Nursing support workers or AIN) is a job which is lead by registered nurses to deliver limited care to patients. This job needs workers to have strong communication ability, empathy and customer service skills of helping with patient’s daily routines. These routines may be showing, toileting, dressing, eating, mobility and exercise regimes. Being an AIN also requires workers to keep patients’ records for doctors and assist in planning of daily routines for patients.

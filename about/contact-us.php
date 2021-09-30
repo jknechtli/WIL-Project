@@ -15,7 +15,7 @@
         <h1>CONTACT US</h1>
       </div>
       <div class="description">
-        <img src="/img/contact-us.webp" alt="typing-on-laptop">
+        <img src="/img/contact-us.jpeg" alt="typing-on-laptop">
         <p>
           Thank you very much for your interest in Exceptional Study
           Australia. If you would like to organise any resume writing with us
@@ -63,7 +63,7 @@
             exceptionalstudyau
           </a>
         </p>
-        <div class="socials contact-socials">
+        <div class="socials contact-socials not-safari">
           <a href="https://au.linkedin.com/company/exceptional-study-australia">
             <img class="logo" src="/img/icons/linkedin-2.webp" alt="linkedin-logo">
           </a>
@@ -81,6 +81,26 @@
           </a>
           <a href="https://www.instagram.com/exceptional_study_australia/?hl=en">
             <img class="logo" src="/img/icons/insta-2.webp" alt="instagram-logo">
+          </a>
+        </div>
+        <div class="socials contact-socials safari-only">
+          <a href="https://au.linkedin.com/company/exceptional-study-australia">
+            <?php include '../img/icons/linkedin.svg' ?>
+          </a>
+          <a href="https://www.tiktok.com/@exceptionalstudyau">
+            <?php include '../img/icons/tiktok.svg' ?>
+          </a>
+          <a href="https://www.facebook.com/exceptionalstudyaustralia/">
+            <?php include '../img/icons/facebook.svg' ?>
+          </a>
+          <a href="https://twitter.com/ExceptionalAust">
+            <?php include '../img/icons/twitter.svg' ?>
+          </a>
+          <a href="https://www.youtube.com/channel/UCa1502fgXTAEJ_ah4wa64Dw">
+            <?php include '../img/icons/youtube.svg' ?>
+          </a>
+          <a href="https://www.instagram.com/exceptional_study_australia/?hl=en">
+            <?php include '../img/icons/insta.svg' ?>
           </a>
         </div>
       </div>

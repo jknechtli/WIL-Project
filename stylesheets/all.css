@@ -77,6 +77,7 @@ body {
   width: 22px;
 }
 
+.contact-socials svg,
 .contact-socials img.logo {
   margin: 0;
   width: 42px;
@@ -122,8 +123,9 @@ body {
   fill: #fff;
 }
 
+.menu > .btn-group > div:hover path,
 .menu > .btn-group > a:hover path,
-.menu > .btn-group > div:hover a > button:hover,
+.menu > .btn-group > div:hover a button:hover,
 .menu > .btn-group > a:hover button,
 .menu > .btn-group > div:hover,
 .menu > .btn-group > a:hover {
@@ -648,5 +650,44 @@ p.text-correction {
   .description img.media-image {
     float: right;
     margin-left: unset;
+  }
+}
+
+.not-safari {
+  display: unset !important;
+}
+
+.safari-only {
+  display: none;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (display: flow-root) {
+    .not-safari {
+      display: unset !important;
+    }
+    .safari-only {
+      display: unset !important;
+    }
+  }
+
+  @supports (-webkit-appearance: none) and (display: flow-root) and
+    (max-width: 900px) {
+    .phone-safari-only {
+      display: unset !important;
+    }
+    .header .logo-container img {
+      max-height: 47px;
+    }
+    .safari-button {
+      min-width: 82px !important;
+    }
+
+    .image-panel {
+      background-image: url("/img/GRADUATES.png");
+    }
+    /* .not_safari {
+      display: none !important;
+    } */
   }
 }

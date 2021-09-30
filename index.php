@@ -228,7 +228,7 @@
       </div>
 
       <div class="form-container" id="form">
-        <img src="/img/form-img.webp" alt="graduate-holding-degree" />
+        <img src="/img/form-img.jpeg" alt="graduate-holding-degree" />
         <form action="shared/email-code.php" method="post">
           <h2>Contact Us</h2>
           <label for="nameInput">Name<span class="required">*</span></label>
@@ -269,7 +269,7 @@
           <a class="AHPRAF" href="https://www.ahpra.gov.au/">AHPRA (Austalian Health Practitioners Regulation Agency)<?php include './shared/little-arrow.html'; ?></a>
         </div>
         <div class="commitment">
-          <img class="logo" src="/img/logo.webp" alt="Logo" />
+          <img class="logo" src="/img/logo.png" alt="Logo" />
           <p>
             Exceptional Study Australia is committed to helping every international nurse, university graduate or teacher to achieve exceptional results professionally when applying for employment
           </p>

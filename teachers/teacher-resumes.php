@@ -17,7 +17,7 @@
       </div>
       <div class="description">
         <h2>TEACHER RESUMES</h2>
-        <img src="/img/teacher-resumes-1.webp" alt="teacher-talking-to-student" />
+        <img src="/img/teacher-resumes-1.jpeg" alt="teacher-talking-to-student" />
         <p>
           Being a teacher in Australia is a highly rewarding career choice as there is always a high demand for high quality, well qualified teaching professionals around the country. However, to achieve a permanent education or relief teaching role it is also a highly competitive industry for both new education graduates and experienced teachers applying for employment. At Exceptional Study Australia we offer a team of existing and experienced teachers and recruiters who specialise in writing education industry based resumes and employment applications. Our resumes are targeted at supporting teachers, trainers, educators and tutors within the education industry. Although many jobseekers may hold a certificate, diploma, advanced diploma, bachelor’s degree, master’s degree or PHD in an education related field it is vital that our jobseekers are effectively promoted in a detailed, honest and well-written manner in order to capture their love of education, their skills, their educational background, their experience history and every other important attribute they bring to the education industry.
         </p>
@@ -27,7 +27,7 @@
         <p>
           For both Australian and international jobseekers who are applying for any advertised and non-advertised education jobs in Australia, we offer the following professional job application services:
         </p>
-        <img src="/img/teacher-resumes-2.webp" alt="student-with-hand-up" />
+        <img src="/img/teacher-resumes-2.jpeg" alt="student-with-hand-up" />
         <ul>
           <li> Resumes </li>
           <li>Cover letters </li>
